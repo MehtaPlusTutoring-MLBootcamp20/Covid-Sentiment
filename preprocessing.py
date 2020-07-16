@@ -55,18 +55,18 @@ def lowercase (textData):
             newFile = np.char.lower(text)
             #print (newFile)
             with open (lowerfile, 'a', newline='') as csvfile:
-                csvwriter = csv.writer(csvfile, delimiter=' ', quotechar = '|', quoting=csv.QUOTE_MINIMAL)
-                csvwriter.writerow([newFile])
+                csvwriter = csv.writer(csvfile,delimiter=' ')
+                csvwriter.writerow(newFile)
 def stopWords (textData):
     noStopWords = 'tempStop.csv'
     with open(textData, newline='') as csvfile:
         files = csv.reader(csvfile, delimiter=' ', quotechar='|')
         for text in files:
-            newFile = remove_stopwords(str(text))
-            #print (newFile)
+            newFile = remove_stopwords(''.join(text))
+            print(newFile)
             with open (noStopWords, 'a', newline='') as csvfile:
-                csvwriter = csv.writer(csvfile, delimiter=' ', quotechar = '|', quoting=csv.QUOTE_MINIMAL)
-                csvwriter.writerow([newFile])
+                csvwriter = csv.writer(csvfile, delimiter=' ')
+                csvwriter.writerow(newFile)
 def urlLink (textData):
     noUrls = 'tempUrl.csv'
     with open(textData, newline='') as csvfile:
@@ -75,7 +75,7 @@ def urlLink (textData):
             newFile = re.sub('http[s]?://\S+', '', str(text))
             #print (newFile)
             with open (noUrls, 'a', newline='') as csvfile:
-                csvwriter = csv.writer(csvfile, delimiter=' ', quotechar = '|', quoting=csv.QUOTE_MINIMAL)
+                csvwriter = csv.writer(csvfile, delimiter=' ')
                 csvwriter.writerow([newFile])
 
 def punctuation (textData):
@@ -96,7 +96,7 @@ def punctuation (textData):
                 newFile = np.char.replace(newFile, "  ", " ")
             newFile = np.char.replace(newFile, ',', '')
             with open (noPunc, 'a', newline='') as csvfile:
-                csvwriter = csv.writer(csvfile, delimiter=' ', quotechar = '|', quoting=csv.QUOTE_MINIMAL)
+                csvwriter = csv.writer(csvfile, delimiter=' ')
                 csvwriter.writerow([newFile])
 def apos (textData):
     noApos = 'tempApos.csv'
@@ -106,20 +106,17 @@ def apos (textData):
             newFile = np.char.replace(str(text), "’", "")
             #print (newFile)
             with open (noApos, 'a', newline='') as csvfile:
-                csvwriter = csv.writer(csvfile, delimiter=' ', quotechar = '|', quoting=csv.QUOTE_MINIMAL)
+                csvwriter = csv.writer(csvfile, delimiter=' ')
                 csvwriter.writerow([newFile])
-def singChar (textData):
-    noSing = 'tempSing.csv'
-    with open(textData, newline='') as csvfile:
-        files = csv.reader(csvfile, delimiter=' ', quotechar='|')
-        for text in files:
-            newFile = ""
-            for w in text:
-                if len(w) > 1:
-                    newFile = newFile + " " + w
-            #print (newFile)
-            with open (noSing, 'a', newline='') as csvfile:
-                csvwriter = csv.writer(csvfile, delimiter=' ', quotechar = '|', quoting=csv.QUOTE_MINIMAL)
+def singChar (textData):    
+    noSing = 'tempSing.csv'    
+    with open(textData, newline='') as csvfile:        
+        files = csv.reader(csvfile, delimiter=' ', quotechar='|')        
+        for text in files:            
+            newFile = re.sub(r"\b[a-zA-Z]\b", "", str(text))            
+            #print (newFile)            
+            with open (noSing, 'a', newline='') as csvfile:                
+                csvwriter = csv.writer(csvfile, delimiter=' ')                
                 csvwriter.writerow([newFile])
 def stemming(textData):
     noStem = 'tempStem.csv'
@@ -132,7 +129,7 @@ def stemming(textData):
                 row=word_tokenize(row)
                 newFile = [ps.stem(word) for word in row]
                 with open(noStem,'a',newline='') as csvfile:
-                    csvwriter = csv.writer(csvfile, delimiter=' ', quotechar='|', quoting=csv.QUOTE_MINIMAL)  
+                    csvwriter = csv.writer(csvfile, delimiter=' ')  
                     csvwriter.writerow(newFile) 
 def lemmatisation(textData):
     noLemma = 'tempLemma.csv'
@@ -145,7 +142,7 @@ def lemmatisation(textData):
                 row=word_tokenize(row)
                 newFile = [lemmatizer.lemmatize(word) for word in row]
                 with open(noLemma,'a',newline='') as csvfile:
-                    csvwriter = csv.writer(csvfile, delimiter=' ', quotechar='|', quoting=csv.QUOTE_MINIMAL)
+                    csvwriter = csv.writer(csvfile, delimiter=' ')
                     csvwriter.writerow(newFile)
 def numToWord(textData): #only works on pure numbers --> no commas or letters attached (remove the rest?)
     noNum = 'tempNum.csv'
@@ -175,8 +172,8 @@ def emoji(textData): #for some reason us flag not being converted
                     csvwriter = csv.writer(csvfile)
                     csvwriter.writerow([row])
 #-----------------------------------------------------------------------
-def lowerStopUrlPunc (textData):
-    allfile = 'tempLowerStopUrlPunc.csv'
+def preprocessed (textData):
+    allfile = 'finishedPreprocess.csv'
     with open(textData, newline='') as csvfile:
         files = csv.reader(csvfile, delimiter=' ', quotechar='|')
         for text in files:
@@ -189,33 +186,53 @@ def lowerStopUrlPunc (textData):
             newFile = re.sub('http[s]?://\S+', '', str(newFile))
             #print("URL: ", newFile)
 
-            symbols = "!\"#$%&()*+-\n"
+            newFile = np.char.replace(newFile, '\\n', '')
+            newFile = np.char.replace(newFile, '\\r', '')
+
+            symbols = "!#$%&()*+-"
+            for i in symbols:
+                newFile = np.char.replace(newFile, i, ' ')
+            symbols = "!./:;<=>?@[\]^_`{|}~"
             for i in range(len(symbols)):
                 newFile = np.char.replace(newFile, symbols[i], ' ')
-                newFile = np.char.replace(newFile, "  ", " ")
-            symbols = "!./:;<=>?@[\]^_`{|}~\r"
-            for i in range(len(symbols)):
-                newFile = np.char.replace(newFile, symbols[i], ' ')
-                newFile = np.char.replace(newFile, "  ", " ")
             newFile = np.char.replace(newFile, ',', '')
+            newFile = np.char.replace(newFile, "  ", " ")
             #print("punc: ", newFile)
             #print (newFile)
             newFile = np.char.replace(str(newFile), "’", "")
-            with open (allfile, 'a', newline='') as csvfile:
-                csvwriter = csv.writer(csvfile, delimiter=' ', quotechar = '|', quoting=csv.QUOTE_MINIMAL)
-                csvwriter.writerow([newFile])
 
+            newFile = re.sub(r"\b[a-zA-Z]\b", "", str(newFile))
+
+            '''ps = PorterStemmer()
+            newFile = [ps.stem(word) for word in newFile]'''
+
+            lemmatizer = WordNetLemmatizer()
+            newFile=word_tokenize(newFile)
+            newFile = [lemmatizer.lemmatize(word) for word in newFile]
+
+            newFile = ' '.join([num2words.num2words(i) if i.isdigit() else i for i in newFile])
+
+            for i in newFile:
+                emojis = demoji.findall(i)
+                if i in emojis:
+                    newFile = newFile.replace(i,emojis[i])
+                #print(row)
+            newFile = ''.join(i for i in newFile)
+
+            with open (allfile, 'a', newline='') as csvfile:
+                csvwriter = csv.writer(csvfile)
+                csvwriter.writerow([newFile])
 #lowercase(data)
-#stopWords(data)
-#urlLink(data)
-#punctuation (data)
-#apos(data)
-#singChar(data)
-#lowerStopUrlPunc(data)
-#stemming(data)
-#lemmatisation(data)
-#numToWord(data)
-emoji(data)
+#stopWords("tempLower.csv")
+#urlLink("tempStop.csv")
+#punctuation ("tempUrl.csv")
+#apos("tempPunc.csv")
+#singChar("tempApos.csv")
+#stemming("tempSing.csv")
+#lemmatisation("tempStem.csv")
+#numToWord("tempLemma.csv")
+#emoji("tempNum.csv")
+preprocessed(data)
 
 
 
