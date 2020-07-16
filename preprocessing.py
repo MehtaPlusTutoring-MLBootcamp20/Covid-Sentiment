@@ -113,10 +113,7 @@ def singChar (textData):
     with open(textData, newline='') as csvfile:
         files = csv.reader(csvfile, delimiter=' ', quotechar='|')
         for text in files:
-            newFile = ""
-            for w in text:
-                if len(w) > 1:
-                    newFile = newFile + " " + w
+            newFile = re.sub(r"\b[a-zA-Z]\b", "", str(text))
             #print (newFile)
             with open (noSing, 'a', newline='') as csvfile:
                 csvwriter = csv.writer(csvfile, delimiter=' ', quotechar = '|', quoting=csv.QUOTE_MINIMAL)
@@ -205,16 +202,16 @@ def lowerStopUrlPunc (textData):
                 csvwriter = csv.writer(csvfile, delimiter=' ', quotechar = '|', quoting=csv.QUOTE_MINIMAL)
                 csvwriter.writerow([newFile])
 
-#lowercase(data)
-#stopWords(data)
-#urlLink(data)
-#punctuation (data)
-#apos(data)
-#singChar(data)
-#lowerStopUrlPunc(data)
-#stemming(data)
-#lemmatisation(data)
-#numToWord(data)
+lowercase(data)
+stopWords(data)
+urlLink(data)
+punctuation (data)
+apos(data)
+singChar(data)
+lowerStopUrlPunc(data)
+stemming(data)
+lemmatisation(data)
+numToWord(data)
 emoji(data)
 
 
