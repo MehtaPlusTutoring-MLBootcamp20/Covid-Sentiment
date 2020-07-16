@@ -108,6 +108,7 @@ def apos (textData):
             with open (noApos, 'a', newline='') as csvfile:
                 csvwriter = csv.writer(csvfile, delimiter=' ')
                 csvwriter.writerow([newFile])
+<<<<<<< HEAD
 def singChar (textData):    
     noSing = 'tempSing.csv'    
     with open(textData, newline='') as csvfile:        
@@ -117,6 +118,17 @@ def singChar (textData):
             #print (newFile)            
             with open (noSing, 'a', newline='') as csvfile:                
                 csvwriter = csv.writer(csvfile, delimiter=' ')                
+=======
+def singChar (textData):
+    noSing = 'tempSing.csv'
+    with open(textData, newline='') as csvfile:
+        files = csv.reader(csvfile, delimiter=' ', quotechar='|')
+        for text in files:
+            newFile = re.sub(r"\b[a-zA-Z]\b", "", str(text))
+            #print (newFile)
+            with open (noSing, 'a', newline='') as csvfile:
+                csvwriter = csv.writer(csvfile, delimiter=' ', quotechar = '|', quoting=csv.QUOTE_MINIMAL)
+>>>>>>> ee86a2d3f4351b3abe4b4914d2ae4454e2a4f619
                 csvwriter.writerow([newFile])
 def stemming(textData):
     noStem = 'tempStem.csv'
@@ -222,6 +234,7 @@ def preprocessed (textData):
             with open (allfile, 'a', newline='') as csvfile:
                 csvwriter = csv.writer(csvfile)
                 csvwriter.writerow([newFile])
+<<<<<<< HEAD
 #lowercase(data)
 #stopWords("tempLower.csv")
 #urlLink("tempStop.csv")
@@ -233,6 +246,20 @@ def preprocessed (textData):
 #numToWord("tempLemma.csv")
 #emoji("tempNum.csv")
 preprocessed(data)
+=======
+
+lowercase(data)
+stopWords(data)
+urlLink(data)
+punctuation (data)
+apos(data)
+singChar(data)
+lowerStopUrlPunc(data)
+stemming(data)
+lemmatisation(data)
+numToWord(data)
+emoji(data)
+>>>>>>> ee86a2d3f4351b3abe4b4914d2ae4454e2a4f619
 
 
 
