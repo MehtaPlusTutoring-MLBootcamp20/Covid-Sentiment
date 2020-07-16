@@ -1,13 +1,13 @@
 '''
-lowercase
-stop words
-punctuation
-apostrophe
-single characters
-stemming
-lemmatisation
-converting numbers
-emojis/emoticons
+lowercase x
+stop words x
+punctuation x
+apostrophe x
+single characters x
+stemming x
+lemmatisation x
+converting numbers x
+emojis/emoticons x
 '''
 #possible big problem!!! changing into line cuts the tweet off!!!!
 from tweepy import Stream
@@ -25,6 +25,11 @@ from twarc import Twarc
 from datetime import date, timedelta, datetime
 import nltk
 from gensim.parsing.preprocessing import remove_stopwords
+from nltk.stem import PorterStemmer
+from nltk.tokenize import word_tokenize
+from nltk.stem import WordNetLemmatizer
+import num2words
+import demoji
 #from geopy.geocoders import Nominatim
 #import countries
 '''
@@ -115,7 +120,60 @@ def singChar (textData):
             #print (newFile)
             with open (noSing, 'a', newline='') as csvfile:
                 csvwriter = csv.writer(csvfile, delimiter=' ', quotechar = '|', quoting=csv.QUOTE_MINIMAL)
-                csvwriter.writerow([newFile])              
+                csvwriter.writerow([newFile])
+def stemming(textData):
+    noStem = 'tempStem.csv'
+    with open(textData, newline='') as csvfile:
+        files = csv.reader(csvfile, delimiter=' ', quotechar='|')
+        for text in files:
+            ps = PorterStemmer()
+            newFile = ""
+            for row in text:
+                row=word_tokenize(row)
+                newFile = [ps.stem(word) for word in row]
+                with open(noStem,'a',newline='') as csvfile:
+                    csvwriter = csv.writer(csvfile, delimiter=' ', quotechar='|', quoting=csv.QUOTE_MINIMAL)  
+                    csvwriter.writerow(newFile) 
+def lemmatisation(textData):
+    noLemma = 'tempLemma.csv'
+    with open(textData, newline='') as csvfile:
+        files = csv.reader(csvfile, delimiter=' ', quotechar='|')
+        for text in files:
+            lemmatizer = WordNetLemmatizer()
+            newFile = ""
+            for row in text:
+                row=word_tokenize(row)
+                newFile = [lemmatizer.lemmatize(word) for word in row]
+                with open(noLemma,'a',newline='') as csvfile:
+                    csvwriter = csv.writer(csvfile, delimiter=' ', quotechar='|', quoting=csv.QUOTE_MINIMAL)
+                    csvwriter.writerow(newFile)
+def numToWord(textData): #only works on pure numbers --> no commas or letters attached (remove the rest?)
+    noNum = 'tempNum.csv'
+    with open(textData, newline='') as csvfile:
+        files = csv.reader(csvfile, delimiter=' ', quotechar='|')
+        for text in files:
+            newFile = ""
+            for row in text:
+                row = ' '.join([num2words.num2words(i) if i.isdigit() else i for i in row.split()])
+                with open(noNum,'a',newline='') as csvfile:
+                    csvwriter = csv.writer(csvfile)
+                    csvwriter.writerow([row])
+def emoji(textData): #for some reason us flag not being converted
+    noEmo = 'tempEmo.csv'
+    with open(textData, newline='') as csvfile:
+        files = csv.reader(csvfile,delimiter=' ', quotechar='|')
+        for text in files:
+            for row in text:
+                #print(row)
+                for i in row:
+                    emojis = demoji.findall(i)
+                    if i in emojis:
+                        row = row.replace(i,emojis[i])
+                #print(row)
+                row = ' '.join(i for i in row.split())
+                with open(noEmo,'a',newline='') as csvfile:
+                    csvwriter = csv.writer(csvfile)
+                    csvwriter.writerow([row])
 #-----------------------------------------------------------------------
 def lowerStopUrlPunc (textData):
     allfile = 'tempLowerStopUrlPunc.csv'
@@ -153,7 +211,11 @@ def lowerStopUrlPunc (textData):
 #punctuation (data)
 #apos(data)
 #singChar(data)
-lowerStopUrlPunc(data)
+#lowerStopUrlPunc(data)
+#stemming(data)
+#lemmatisation(data)
+#numToWord(data)
+emoji(data)
 
 
 
