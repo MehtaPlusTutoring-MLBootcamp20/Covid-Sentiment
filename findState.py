@@ -93,8 +93,6 @@ t = Twarc(CONSUMER_KEY, CONSUMER_SECRET, OAUTH_TOKEN, OAUTH_TOKEN_SECRET)
 for singledate in daterange(start_date, end_date):
     after = singledate + timedelta(1)
     filename=singledate.strftime("%B%-d").lower()+"_"+after.strftime("%B%-d").lower()+".csv"
-    
-
     if (singledate.strftime("%B%-d").lower() != "march29"):
         with open(filename, 'r') as csvfile:
             data = csv.reader(csvfile, delimiter=' ', quotechar='|')

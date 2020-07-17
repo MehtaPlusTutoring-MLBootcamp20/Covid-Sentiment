@@ -138,6 +138,7 @@ for date in daterange(start_date, end_date):
                         csvwriter = csv.writer(csvfile, delimiter=' ', quotechar = '|', quoting=csv.QUOTE_MINIMAL)
                         csvwriter.writerow([tweet["full_text"]])
                     '''
+                    
                     with open (readyfile, 'a', newline='') as csvfile:
                         #fieldnames = ['tweet','state']
                         writer = csv.writer(csvfile)
@@ -145,7 +146,15 @@ for date in daterange(start_date, end_date):
                         somedict = {'tweet': tweet["full_text"], 'state': valState}
                         for value in somedict.items():
                             writer.writerow(value)
+                    
                     '''
+                    with open(readyfile,'a') as csvfile:
+                        try:
+                            writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+                            writer.writerow({'tweet': tweet["full_text"], 'location': extract_place(tweet)})
+                        except:
+                            pass
+                    
                     with open (readyfile, 'a', newline='') as csvfile:
                         #fieldnames = ['tweet','state']
                         #writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
