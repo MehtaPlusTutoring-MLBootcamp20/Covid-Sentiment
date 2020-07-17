@@ -141,7 +141,7 @@ for date in daterange(start_date, end_date):
 
     df_tweets=pd.read_csv(tweet_filename)
     df_cases=pd.read_csv(cases_filename)
-    df_cases=df_cases.drop(columns = ["Province_State","Unnamed: 0"])
+    df_cases=df_cases.drop(columns = ["tweet","Unnamed: 0", "Unnamed: 0.1","Province_State"])
 
     new_df=pd.concat([df_tweets, df_cases],axis = 1)
     new_df.to_csv("finalTweets"+date.strftime("%B%d").lower()+".csv")
