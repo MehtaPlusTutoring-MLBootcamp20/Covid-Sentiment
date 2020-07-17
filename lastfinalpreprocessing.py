@@ -22,7 +22,7 @@ import demoji
 def daterange(start_date, end_date):
     for n in range(int((end_date - start_date).days)):
         yield start_date + timedelta(n)
-start_date = date(2020, 4, 12)
+start_date = date(2020, 5, 1)
 end_date = date(2020, 7, 13)
 
 def preprocessed (textData):
@@ -79,9 +79,9 @@ def preprocessed (textData):
 for date in daterange(start_date, end_date):
     after = date + timedelta(1)
     #print(date.strftime("%B%-d").lower()+"_"+after.strftime("%B%-d").lower()+".csv")
-    filename="withcases"+date.strftime("%B%-d").lower()+".csv"
+    filename="withcases"+date.strftime("%B%d").lower()+".csv"
     print(filename)
-    allfile = "preprocessed_corona_tweets"+date.strftime("%B%-d").lower()+".csv"
+    allfile = "preprocessed_corona_tweets"+date.strftime("%B%d").lower()+".csv"
     with open(filename, newline='') as csvfiles:
         files = csv.reader(csvfiles, delimiter=' ', quotechar='|')
         totaldata=pd.read_csv(filename, header=None)
@@ -132,12 +132,12 @@ for date in daterange(start_date, end_date):
                 csvwriter = csv.writer(csvfiless)
                 csvwriter.writerow([newFile])   
 
-    break
+    #break
 
 
 for date in daterange(start_date, end_date):
-    tweet_filename="preprocessed_corona_tweets"+date.strftime("%B%-d").lower()+".csv"
-    cases_filename="withcases"+date.strftime("%B%-d").lower()+".csv"
+    tweet_filename="preprocessed_corona_tweets"+date.strftime("%B%d").lower()+".csv"
+    cases_filename="withcases"+date.strftime("%B%d").lower()+".csv"
 
     df_tweets=pd.read_csv(tweet_filename)
     df_cases=pd.read_csv(cases_filename)
@@ -145,4 +145,4 @@ for date in daterange(start_date, end_date):
 
     new_df=pd.concat([df_tweets, df_cases],axis = 1)
     new_df.to_csv("finalTweets"+date.strftime("%B%d").lower()+".csv")
-    break
+    #break
