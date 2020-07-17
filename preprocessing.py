@@ -149,7 +149,6 @@ def numToWord(textData): #only works on pure numbers --> no commas or letters at
     with open(textData, newline='') as csvfile:
         files = csv.reader(csvfile, delimiter=' ', quotechar='|')
         for text in files:
-            newFile = ""
             for row in text:
                 row = ' '.join([num2words.num2words(i) if i.isdigit() else i for i in row.split()])
                 with open(noNum,'a',newline='') as csvfile:
