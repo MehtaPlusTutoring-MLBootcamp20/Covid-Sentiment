@@ -22,8 +22,8 @@ import demoji
 def daterange(start_date, end_date):
     for n in range(int((end_date - start_date).days)):
         yield start_date + timedelta(n)
-start_date = date(2020, 5, 1)
-end_date = date(2020, 7, 13)
+start_date = date(2020, 4, 12)
+end_date = date(2020, 4, 13)
 
 def preprocessed (textData):
     allfile = 'lastFinishedPreprocess.csv'
