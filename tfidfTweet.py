@@ -14,13 +14,16 @@ state_names = ["Alaska", "Alabama", "Arkansas", "Arizona", "California", "Colora
 states = pd.get_dummies(state_names)
 #print(states)
 
-articles = pd.Series()
+articles = pd.DataFrame()
 for date in daterange(start_date, end_date):
     words="finalTweets"+date.strftime("%B%d").lower()+".csv"
     df = pd.read_csv(words)
-    articles = pd.concat([articles, df["tweet"]],ignore_index=True)
+    df['date'] = date
+    articles = pd.concat([articles, df],ignore_index=True)
     #for state in df['location'].unique():
-        
+
+state = pd.get_dummies(articles['location'])
+articles = pd.concat([articles, state], axis = 1)
 
 import sklearn
 from sklearn import feature_extraction
@@ -32,26 +35,32 @@ tf_counter = sklearn.feature_extraction.text.TfidfVectorizer(max_features = 1000
 
 #for date in daterange(start_date, end_date):
 # Get bag of words model as sparse matrix
-bag_of_words = counter.fit_transform(articles)
+bag_of_words = counter.fit_transform(articles['tweet'])
 #print(bag_of_words)
 
 # Get tf-idf matrix as sparse matrix
-tfidf = tf_counter.fit(articles)
-
+tfidf = tf_counter.fit(articles['tweet'])
+df = articles
+data = []
 for date in daterange(start_date, end_date):
+    '''
     words="finalTweets"+date.strftime("%B%d").lower()+".csv"
     df = pd.read_csv(words)
     df = df.drop(columns = ['Unnamed: 0'])
+    '''
     #df['tfidf'] = tf_counter.transform(df['tweet'])
     #df[['location','tfidf']].groupby('location').mean()
     #print(df[['location','tfidf']].groupby('location').mean())
     #print(df.dtypes)
     for state in df['location'].unique():
-        avgtfidf = df[df['location']==state].apply(lambda x: tf_counter.transform([x['tweet']]), axis = 1).sum()
-        avgtfidf = avgtfidf/len(df[df['location']==state])
-        print(avgtfidf)
+        avgtfidf = df[(df['location']==state) & (df['date'] == date)].apply(lambda x: tf_counter.transform([x['tweet']]), axis = 1).sum()
+        avgtfidf = avgtfidf/len(df[(df['location']==state) & (df['date'] == date)])
+        #print(avgtfidf)
+        feature = avgtfidf.toarray()
+        #df = np.append(feature,[value])
+        data.append(feature)
         
-
+print(articles.head())
 
 # Get the words corresponding to the vocab index
 tf_counter.get_feature_names()
