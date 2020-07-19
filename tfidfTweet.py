@@ -73,8 +73,9 @@ for date in daterange(start_date, end_date):
     #insert other pre-processing here, ex: date since start
     df['date-since'] = df['date'] - start_date
     bystate = df.groupby(['location', 'date']).mean()
+    #print('bystate: ', bystate)
     data = bystate.values
-    print(data)
+    #print(data)
 
 # Get the words corresponding to the vocab index
 tf_counter.get_feature_names()
