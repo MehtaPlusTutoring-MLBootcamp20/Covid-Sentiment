@@ -85,7 +85,6 @@ for state in df['location'].unique():
             #break
             #print (data)
     totalData[state] = data
-    break
 
 # Get the words corresponding to the vocab index
 tf_counter.get_feature_names()
