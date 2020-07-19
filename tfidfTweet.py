@@ -51,7 +51,7 @@ bag_of_words = counter.fit_transform(articles['tweet'].apply(lambda x: np.str_(a
 # Get tf-idf matrix as sparse matrix
 tfidf = tf_counter.fit(articles['tweet'].apply(lambda x: np.str_(articles['tweet'])))
 df = articles
-data = []
+
 
 #print(df['location'])
 
@@ -65,8 +65,9 @@ df = df.drop(columns = ['Unnamed: 0'])
 #df[['location','tfidf']].groupby('location').mean()
 #print(df[['location','tfidf']].groupby('location').mean())
 #print(df.dtypes)
-
+totalData = pd.DataFrame()
 for state in df['location'].unique():
+    data = []
     for date in daterange(start_date, end_date):
         thisTweet="finalTweets"+date.strftime("%B%d").lower()+".csv"
         twee = pd.read_csv(thisTweet)
@@ -75,14 +76,20 @@ for state in df['location'].unique():
         if twee['location'].str.contains(state).any():
             avgtfidf = df[(df['location']==state) & (df['date'] == date)].apply(lambda x: tf_counter.transform([x['tweet']]), axis = 1).sum()
             avgtfidf = avgtfidf/len(df[(df['location']==state) & (df['date'] == date)])
-            print(type(avgtfidf))
+            #print(type(avgtfidf))
             #print(avgtfidf)
-            print(state)
+            #print(state)
             feature = avgtfidf.toarray()
             #df = np.append(feature,[value])
             data.append(feature)
             #break
+            #print (data)
+    totalData[state] = data
+    break
 
 # Get the words corresponding to the vocab index
 tf_counter.get_feature_names()
 #print (tf_counter.get_feature_names())
+
+tfidfConverted = "tfidf.csv"
+totalData.to_csv(tfidfConverted)
