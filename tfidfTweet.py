@@ -80,8 +80,8 @@ for state in df['location'].unique():
             #print(avgtfidf)
             #print(state)
             feature = avgtfidf.toarray()
-            #df = np.append(feature,[value])
-            data.append(feature)
+            #feature.append([(date-start_date).days])
+            data = np.append(feature,[date-start_date])
             #break
             #print (data)
     totalData[state] = data
