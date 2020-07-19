@@ -26,13 +26,14 @@ for date in daterange(start_date, end_date):
 state = pd.get_dummies(articles['location'])
 articles = pd.concat([articles, state], axis = 1)
 articles = articles.drop(columns = ['Unnamed: 0'])
-articlesFile = "articles.csv"
-articles.to_csv(articlesFile)
+#articlesFile = "articles.csv"
+#articles.to_csv(articlesFile)
 
 #print(articles.head())
 #print (articles.tail(10))
 #print (articles.columns)
 #print(articles.head(150))
+
 
 import sklearn
 from sklearn import feature_extraction
