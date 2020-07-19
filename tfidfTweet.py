@@ -65,30 +65,23 @@ df = df.drop(columns = ['Unnamed: 0'])
 #df[['location','tfidf']].groupby('location').mean()
 #print(df[['location','tfidf']].groupby('location').mean())
 #print(df.dtypes)
-totalData = pd.DataFrame()
-for state in df['location'].unique():
-    data = []
-    for date in daterange(start_date, end_date):
-        thisTweet="finalTweets"+date.strftime("%B%d").lower()+".csv"
-        twee = pd.read_csv(thisTweet)
-        #print(twee.columns)
-        #print(twee.head(10))
-        if twee['location'].str.contains(state).any():
-            avgtfidf = df[(df['location']==state) & (df['date'] == date)].apply(lambda x: tf_counter.transform([x['tweet']]), axis = 1).sum()
-            avgtfidf = avgtfidf/len(df[(df['location']==state) & (df['date'] == date)])
-            #print(type(avgtfidf))
-            #print(avgtfidf)
-            #print(state)
-            feature = avgtfidf.toarray()
-            #feature.append([(date-start_date).days])
-            data = np.append(feature,[date-start_date])
-            #break
-            #print (data)
-    totalData[state] = data
+data = []
+for date in daterange(start_date, end_date):
+    tfidf = tf_counter.transform(df['tweet'])
+    tfidf = pd.DataFrame(tfidf.toarray(), columns = tf_counter.get_feature_names())
+    df = pd.concat([df, tfidf], axis=1)
+    #insert other pre-processing here, ex: date since start
+    df['date-since'] = df['date'] - start_date
+    bystate = df.groupby(['location', 'date']).mean()
+    data = bystate.values
+    print(data)
 
 # Get the words corresponding to the vocab index
 tf_counter.get_feature_names()
 #print (tf_counter.get_feature_names())
 
 tfidfConverted = "tfidf.csv"
-totalData.to_csv(tfidfConverted)
+
+with open(tfidfConverted,"w+") as my_csv:
+    csvWriter = csv.writer(my_csv,delimiter=',')
+    csvWriter.writerows(data)
