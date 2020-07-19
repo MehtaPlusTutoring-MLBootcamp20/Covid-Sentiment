@@ -8,7 +8,7 @@ def daterange(start_date, end_date):
     for n in range(int((end_date - start_date).days)):
         yield start_date + timedelta(n)
 start_date = date(2020, 4, 12)
-end_date = date(2020, 4, 14) #end date, datetime.date(datetime.now()) (this second option is dynamic and changes by date but depends on timezone)
+end_date = date(2020, 4, 13) #end date, datetime.date(datetime.now()) (this second option is dynamic and changes by date but depends on timezone)
 
 state_names = ["Alaska", "Alabama", "Arkansas", "Arizona", "California", "Colorado", "Connecticut", "District of Columbia", "Delaware", "Florida", "Georgia", "Hawaii", "Iowa", "Idaho", "Illinois", "Indiana", "Kansas", "Kentucky", "Louisiana", "Massachusetts", "Maryland", "Maine", "Michigan", "Minnesota", "Missouri", "Mississippi", "Montana", "North Carolina", "North Dakota", "Nebraska", "New Hampshire", "New Jersey", "New Mexico", "Nevada", "New York", "Ohio", "Oklahoma", "Oregon", "Pennsylvania", "Rhode Island", "South Carolina", "South Dakota", "Tennessee", "Texas", "Utah", "Virginia", "Vermont", "Washington", "Wisconsin", "West Virginia", "Wyoming"]
 states = pd.get_dummies(state_names)
@@ -16,6 +16,7 @@ states = pd.get_dummies(state_names)
 
 articles = pd.DataFrame()
 for date in daterange(start_date, end_date):
+    #print(date)
     words="finalTweets"+date.strftime("%B%d").lower()+".csv"
     df = pd.read_csv(words)
     df['date'] = date
@@ -24,6 +25,9 @@ for date in daterange(start_date, end_date):
 
 state = pd.get_dummies(articles['location'])
 articles = pd.concat([articles, state], axis = 1)
+articles = articles.drop(columns = ['Unnamed: 0'])
+#print(articles.head())
+#print (articles.tail(10))
 
 import sklearn
 from sklearn import feature_extraction
@@ -35,13 +39,16 @@ tf_counter = sklearn.feature_extraction.text.TfidfVectorizer(max_features = 1000
 
 #for date in daterange(start_date, end_date):
 # Get bag of words model as sparse matrix
-bag_of_words = counter.fit_transform(articles['tweet'])
+bag_of_words = counter.fit_transform(articles['tweet'].apply(lambda x: np.str_(articles['tweet'])))
 #print(bag_of_words)
 
 # Get tf-idf matrix as sparse matrix
-tfidf = tf_counter.fit(articles['tweet'])
+tfidf = tf_counter.fit(articles['tweet'].apply(lambda x: np.str_(articles['tweet'])))
 df = articles
 data = []
+
+print(df['location'])
+
 for date in daterange(start_date, end_date):
     '''
     words="finalTweets"+date.strftime("%B%d").lower()+".csv"
@@ -55,12 +62,13 @@ for date in daterange(start_date, end_date):
     for state in df['location'].unique():
         avgtfidf = df[(df['location']==state) & (df['date'] == date)].apply(lambda x: tf_counter.transform([x['tweet']]), axis = 1).sum()
         avgtfidf = avgtfidf/len(df[(df['location']==state) & (df['date'] == date)])
+        print(type(avgtfidf))
         #print(avgtfidf)
+        print(state)
         feature = avgtfidf.toarray()
         #df = np.append(feature,[value])
         data.append(feature)
         
-print(articles.head())
 
 # Get the words corresponding to the vocab index
 tf_counter.get_feature_names()
