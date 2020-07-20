@@ -32,4 +32,4 @@ for date in daterange(start_date, end_date):
             dataframe=totaldata[0]
 '''
 sentimentFile = "sentiment.csv"
-sentiments.to_csv(sentimentFile)
+sentiments.to_csv(sentimentFile, index = False)
