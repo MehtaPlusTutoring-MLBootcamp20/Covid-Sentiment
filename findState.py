@@ -119,5 +119,8 @@ for singledate in daterange(start_date, end_date):
                         try:
                             writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
                             writer.writerow({'tweet': tweet["full_text"], 'location': extract_place(tweet)})
+                            print (tweet["full _text"])
+                            print (extract_place(tweet))
                         except:
                             pass
+            break

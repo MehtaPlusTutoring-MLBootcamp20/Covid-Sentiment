@@ -52,18 +52,18 @@ df = df.drop(columns = ['Unnamed: 0'])
 #print(df[['location','tfidf']].groupby('location').mean())
 #print(df.dtypes)
 data = []
+counter = 1
 for date in daterange(start_date, end_date):
     tfidf = tf_counter.transform(df['tweet'])
     tfidf = pd.DataFrame(tfidf.toarray(), columns = tf_counter.get_feature_names())
     df = pd.concat([df, tfidf], axis=1)
     #insert other pre-processing here, ex: date since start
-    print(df['date'])
-    print(type(df['date']))
-    df['datesince'] = df['date'] - start_date
-    bystate = df.groupby(['Province_State', 'date']).mean()
+    df['datesince'] = counter
+    bystate = df.groupby(['location', 'date']).mean()
     #print('bystate: ', bystate)
     data = bystate.values
     #print(data)
+    counter += 1
 
 # Get the words corresponding to the vocab index
 tf_counter.get_feature_names()

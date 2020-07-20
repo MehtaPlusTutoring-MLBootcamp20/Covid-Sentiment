@@ -21,7 +21,8 @@ for date in daterange(start_date, end_date):
     words="finalTweets"+date.strftime("%B%d").lower()+".csv"
     df = pd.read_csv(words)
     df['date'] = date
-    articles = pd.concat([articles, df],ignore_index=True)
+    #df = df[df.location.notnull()]
+    articles = pd.concat([articles, df[df.location.notnull()]],ignore_index=True)
     #for state in df['location'].unique():
 
 state = pd.get_dummies(articles['location'])
