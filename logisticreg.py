@@ -6,10 +6,10 @@ from sklearn import datasets
 from sklearn import svm
 import numpy as np
 
-tfidf = "tfidf2.csv"
+tfidf = "tfidf4.csv"
 df = pd.read_csv(tfidf)
 
-X = df.drop(columns = ['Confirmed', 'location', 'date'])
+X = df.drop(columns = ['Unnamed: 0', 'location'])
 X=X.values
 y = df['Confirmed']
 y=y.values

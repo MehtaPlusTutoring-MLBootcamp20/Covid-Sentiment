@@ -79,7 +79,7 @@ for date in daterange(start_date, end_date):
 tfidf = tf_counter.transform(df['tweet'])
 tfidf = pd.DataFrame(tfidf.toarray(), columns = tf_counter.get_feature_names())
 df = pd.concat([df, tfidf], axis=1)
-df = df.drop(columns = ['date'])
+df = df.drop(columns = ['date','Unnamed: 0'])
 bystate = df.groupby(['location', 'date-since']).mean()
 #data = bystate.values
 # Get the words corresponding to the vocab index
