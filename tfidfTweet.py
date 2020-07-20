@@ -19,7 +19,17 @@ articlesFile = "articles.csv"
 articles = pd.read_csv(articlesFile)
 #articles = articles.drop(columns = ['Unnamed: 0'])
 #print(articles.head(5))
-#print(articles.columns)
+def getCases(date, location):
+    date = pd.to_datetime(date)
+    print(date)
+    cases = pd.read_csv(date.strftime("%m-%d-%Y.csv"))
+    return int(cases[cases['Province_State']==location]['Confirmed'])
+
+articles['Confirmed'] = articles.apply(lambda x: getCases(x['date'], x['location']), axis=1)
+articleFile = "articles2.csv"
+articles = articles.drop(columns = ['Unnamed: 0'])
+articles.to_csv(articleFile)
+print(articles.columns)
 
 import sklearn
 from sklearn import feature_extraction
@@ -53,24 +63,23 @@ df = df.drop(columns = ['Unnamed: 0'])
 #print(df.dtypes)
 data = []
 counter = 1
+
 for date in daterange(start_date, end_date):
     tfidf = tf_counter.transform(df['tweet'])
     tfidf = pd.DataFrame(tfidf.toarray(), columns = tf_counter.get_feature_names())
     df = pd.concat([df, tfidf], axis=1)
     #insert other pre-processing here, ex: date since start
     df['datesince'] = counter
-    bystate = df.groupby(['location', 'date']).mean()
     #print('bystate: ', bystate)
-    data = bystate.values
     #print(data)
     counter += 1
+
+bystate = df.groupby(['location', 'date']).mean()
+#data = bystate.values
 
 # Get the words corresponding to the vocab index
 tf_counter.get_feature_names()
 #print (tf_counter.get_feature_names())
 
-tfidfConverted = "tfidf.csv"
-
-with open(tfidfConverted,"a") as my_csv:
-    csvWriter = csv.writer(my_csv,delimiter=',')
-    csvWriter.writerows(data)
+tfidfConverted = "tfidf2.csv"
+bystate.to_csv(tfidfConverted)
