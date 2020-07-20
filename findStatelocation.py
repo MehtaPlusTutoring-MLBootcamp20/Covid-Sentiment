@@ -70,13 +70,13 @@ CONSUMER_SECRET = "YWQJJlJyzXxkaPXCEdFrANgHFf4Dyd0PtkT4f5TvXFUJLUtpvU"
 t = Twarc(CONSUMER_KEY, CONSUMER_SECRET, OAUTH_TOKEN, OAUTH_TOKEN_SECRET)
 
 for singledate in daterange(start_date, end_date):
-    tweet_filename="state_tweets"+ singledate.strftime("%B%-d").lower() +".csv"
-    cases_filename="new"+singledate.strftime("%m-%d-%Y").lower()+".csv"
+    tweet_filename="sentiment"+ singledate.strftime("%B%-d").lower() +".csv"
+    cases_filename="state_tweets"+singledate.strftime("%B%-d").lower()+".csv"
 
     df_tweets=pd.read_csv(tweet_filename)
     df_cases=pd.read_csv(cases_filename)
 
-    new_df=df_tweets.merge(df_cases, left_on='location', right_on='Province_State')
+    new_df=pd.concat([df_tweets, df_cases], axis = 1)
     new_df.to_csv("withcases"+singledate.strftime("%B%d").lower()+".csv")
 
 

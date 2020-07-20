@@ -14,26 +14,12 @@ state_names = ["Alaska", "Alabama", "Arkansas", "Arizona", "California", "Colora
 states = pd.get_dummies(state_names)
 #print(states)
 
-articles = pd.DataFrame()
-for date in daterange(start_date, end_date):
-    #print(date)
-    words="finalTweets"+date.strftime("%B%d").lower()+".csv"
-    df = pd.read_csv(words)
-    df['date'] = date
-    articles = pd.concat([articles, df],ignore_index=True)
-    #for state in df['location'].unique():
-
-state = pd.get_dummies(articles['location'])
-articles = pd.concat([articles, state], axis = 1)
-articles = articles.drop(columns = ['Unnamed: 0'])
-#articlesFile = "articles.csv"
+articlesFile = "articles.csv"
 #articles.to_csv(articlesFile)
-
-#print(articles.head())
-#print (articles.tail(10))
-#print (articles.columns)
-#print(articles.head(150))
-
+articles = pd.read_csv(articlesFile)
+#articles = articles.drop(columns = ['Unnamed: 0'])
+#print(articles.head(5))
+#print(articles.columns)
 
 import sklearn
 from sklearn import feature_extraction
@@ -71,8 +57,10 @@ for date in daterange(start_date, end_date):
     tfidf = pd.DataFrame(tfidf.toarray(), columns = tf_counter.get_feature_names())
     df = pd.concat([df, tfidf], axis=1)
     #insert other pre-processing here, ex: date since start
-    df['date-since'] = df['date'] - start_date
-    bystate = df.groupby(['location', 'date']).mean()
+    print(df['date'])
+    print(type(df['date']))
+    df['datesince'] = df['date'] - start_date
+    bystate = df.groupby(['Province_State', 'date']).mean()
     #print('bystate: ', bystate)
     data = bystate.values
     #print(data)
@@ -83,6 +71,6 @@ tf_counter.get_feature_names()
 
 tfidfConverted = "tfidf.csv"
 
-with open(tfidfConverted,"w+") as my_csv:
+with open(tfidfConverted,"a") as my_csv:
     csvWriter = csv.writer(my_csv,delimiter=',')
     csvWriter.writerows(data)

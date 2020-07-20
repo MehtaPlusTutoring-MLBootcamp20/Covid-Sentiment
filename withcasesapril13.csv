@@ -1,29 +1,162 @@
-,tweet,location,Unnamed: 0,Province_State,Confirmed
+,tweet,sentiment,tweet,location
 0,"""My Latest Post'
 
-#utilitypole #rust #green #staples #corona #pixel3xl #pixel #iger #instagram #gram #nature @ New Orleans, Louisiana https://t.co/g7h4a6jubT",Louisiana,22,Louisiana,21016
-1,Be still keep calm so we can heal #bestill #lockdown #keepfaith #besafe #heal #stayhome #corona #coronachronicles #happysunday #sundayvibes #Sunday #eastersunday #happyeaster  #pastel #pastelcolors #lolife… https://t.co/4z0Xw7jEWc,Louisiana,22,Louisiana,21016
-2,Corona Blues #jazz #funk #rnb #grownfolkmusic @ Smithsonian National Museum of African American History and Culture https://t.co/eX9tVuS3Vs,District of Columbia,10,District of Columbia,1955
-3,Covid-19: Life goes on. Slooooowly. #corona #covid #washyourhands #washingtondc #blackandwhite #bnw #blackandwhitephotography #bnwstreet #bnwstreetphotography #streetphotography #streetphoto #streetphotographer… https://t.co/ZPGHq1LJdk,District of Columbia,10,District of Columbia,1955
-4,Do not let corona virus spread around you. We are all doing our part to support this commander-in-chief and move the US forward in health. It makes us prosperous! #Trump2020 #DonaldTrump #VoteDonaldTrump #VDT @ The… https://t.co/p9B7lVZs47,District of Columbia,10,District of Columbia,1955
-5,I love getting feedback from Coco on my last liveshot or show.   She seems to always approve. #corona #workathome #dogs #dogsofinstagram @ Washington D.C. https://t.co/OYgf6QOL0A,District of Columbia,10,District of Columbia,1955
-6,Rocky is all about stairs @ Corona del Mar State Beach https://t.co/udGhmC1eHb,California,5,California,23931
-7,"Happy Easter 🐇🐰🐣 @ Corona, California https://t.co/ixgopgVSs5",California,5,California,23931
-8,"Happy Easter to my Familia and Friends. Thank God for this blessed day we have! #happyeaster2020 #familiaarmas #armasfamily #chiltonohana @ Corona, California https://t.co/5nw3Dfqs7z",California,5,California,23931
-9,"QUEEN CORONA 
-#Goth #Glam with riconasty x thescottedit 🦠🧝🏼‍♀️ @ Los Angeles, California https://t.co/ut6BMNAcPa",California,5,California,23931
-10,"Had a visit from the Easter Bunny today! @ Corona, California https://t.co/boB5zjyb7L",California,5,California,23931
-11,"Happy Easter #BunnyYoga 🐰
+#utilitypole #rust #green #staples #corona #pixel3xl #pixel #iger #instagram #gram #nature @ New Orleans, Louisiana https://t.co/g7h4a6jubT",0.1,"""My Latest Post'
+
+#utilitypole #rust #green #staples #corona #pixel3xl #pixel #iger #instagram #gram #nature @ New Orleans, Louisiana https://t.co/g7h4a6jubT",Louisiana
+1,Corona Blues #jazz #funk #rnb #grownfolkmusic @ Smithsonian National Museum of African American History and Culture https://t.co/eX9tVuS3Vs,0.14545454545454545,Corona Blues #jazz #funk #rnb #grownfolkmusic @ Smithsonian National Museum of African American History and Culture https://t.co/eX9tVuS3Vs,District of Columbia
+2,Rocky is all about stairs @ Corona del Mar State Beach https://t.co/udGhmC1eHb,0.0,Rocky is all about stairs @ Corona del Mar State Beach https://t.co/udGhmC1eHb,California
+3,"Corona 2020, Spanish Flu 1920, Cholera 1820, Bubonic Plague in 1720 🤔 Population Control Every 100 Years 🤔#CoincidenceOrPattern #coincidenceithinknot 🤔 @ Lows' Kitchen https://t.co/iybmsy2Dxj",0.0,"Corona 2020, Spanish Flu 1920, Cholera 1820, Bubonic Plague in 1720 🤔 Population Control Every 100 Years 🤔#CoincidenceOrPattern #coincidenceithinknot 🤔 @ Lows' Kitchen https://t.co/iybmsy2Dxj",North Carolina
+4,Covid-19: Life goes on. Slooooowly. #corona #covid #washyourhands #washingtondc #blackandwhite #bnw #blackandwhitephotography #bnwstreet #bnwstreetphotography #streetphotography #streetphoto #streetphotographer… https://t.co/ZPGHq1LJdk,0.0,Covid-19: Life goes on. Slooooowly. #corona #covid #washyourhands #washingtondc #blackandwhite #bnw #blackandwhitephotography #bnwstreet #bnwstreetphotography #streetphotography #streetphoto #streetphotographer… https://t.co/ZPGHq1LJdk,District of Columbia
+5,ONE NATION UNDER A GROOVE #stayinghome FOR THE FUNK OF IT #alonetogether  #onenation #corona @ Pennsylvania https://t.co/jFD9YjHxho,0.0,ONE NATION UNDER A GROOVE #stayinghome FOR THE FUNK OF IT #alonetogether  #onenation #corona @ Pennsylvania https://t.co/jFD9YjHxho,Pennsylvania
+6,"Corona Virus won’t stop me from speaking and encouraging the Body of Christ. 
+
+I have all of the In’s and Out’s to host your “Motivating Your Circle Event”. Does your circle need a recharge from someone new? I have… https://t.co/BncYsZmKRR",0.0,"Corona Virus won’t stop me from speaking and encouraging the Body of Christ. 
+
+I have all of the In’s and Out’s to host your “Motivating Your Circle Event”. Does your circle need a recharge from someone new? I have… https://t.co/BncYsZmKRR",Tennessee
+7,"Corona Virus won’t stop me from speaking and encouraging the Body of Christ. 
+
+I have all of the In’s and Out’s to host your “Motivating Your Circle Event”. Does your circle need a recharge from someone new? I have… https://t.co/qydc8Eivc5",0.0,"Corona Virus won’t stop me from speaking and encouraging the Body of Christ. 
+
+I have all of the In’s and Out’s to host your “Motivating Your Circle Event”. Does your circle need a recharge from someone new? I have… https://t.co/qydc8Eivc5",Tennessee
+8,ONE NATION UNDER A GROOVE #STAYINGHOME FOR THE FUNK OF IT #ALONETOGETHER due Da #corona #covid_19 @ North Carolina https://t.co/oBQIb3xMKU,0.6208333333333333,ONE NATION UNDER A GROOVE #STAYINGHOME FOR THE FUNK OF IT #ALONETOGETHER due Da #corona #covid_19 @ North Carolina https://t.co/oBQIb3xMKU,North Carolina
+9,"Happy Easter 🐇🐰🐣 @ Corona, California https://t.co/ixgopgVSs5",-0.125,"Happy Easter 🐇🐰🐣 @ Corona, California https://t.co/ixgopgVSs5",California
+10,ONE NATION UNDER A GROOVE #STAYINGHOME FOR THE FUNK OF IT #ALONETOGETHER due Da #corona #covid_19 @ Pennsylvania https://t.co/USpxADYeL4,0.8,ONE NATION UNDER A GROOVE #STAYINGHOME FOR THE FUNK OF IT #ALONETOGETHER due Da #corona #covid_19 @ Pennsylvania https://t.co/USpxADYeL4,Pennsylvania
+11,"Happy Easter to my Familia and Friends. Thank God for this blessed day we have! #happyeaster2020 #familiaarmas #armasfamily #chiltonohana @ Corona, California https://t.co/5nw3Dfqs7z",0.35,"Happy Easter to my Familia and Friends. Thank God for this blessed day we have! #happyeaster2020 #familiaarmas #armasfamily #chiltonohana @ Corona, California https://t.co/5nw3Dfqs7z",California
+12,"A little Easter fun this morning with the boys.
+
+#easter #easteregghunt #confetti @ Corona de Tucson, Arizona https://t.co/kObEXHNX6B",1.0,"A little Easter fun this morning with the boys.
+
+#easter #easteregghunt #confetti @ Corona de Tucson, Arizona https://t.co/kObEXHNX6B",Arizona
+13,"Follow @DaddyDaughterTi for #DailyFunnies
+👆🏾ClickFollow &amp;/or a “😂”👆🏾 
+.
+#imagine #imagination #imagines #imaginaryfriend #imaginaryfriends 
+.
+Upcoming Shows:
+-They are normally posted here but #TheRona #aka #Corona… https://t.co/Msjja17QTn",0.05625,"Follow @DaddyDaughterTi for #DailyFunnies
+👆🏾ClickFollow &amp;/or a “😂”👆🏾 
+.
+#imagine #imagination #imagines #imaginaryfriend #imaginaryfriends 
+.
+Upcoming Shows:
+-They are normally posted here but #TheRona #aka #Corona… https://t.co/Msjja17QTn",Massachusetts
+14,"Luna’s 🌙 1st Easter 🐣and Resurrection ✝️Sunday. Nothing can stop her praise 🙌🏽 not even Corona!
+.
+.
+.
+SWIPE👉🏽 For more bunny hopping cuteness.
+.
+.
+#heisrisen
+#theblessedlife
+#ressurectionsunday… https://t.co/D5Tw5uUMrU",0.15,"Luna’s 🌙 1st Easter 🐣and Resurrection ✝️Sunday. Nothing can stop her praise 🙌🏽 not even Corona!
+.
+.
+.
+SWIPE👉🏽 For more bunny hopping cuteness.
+.
+.
+#heisrisen
+#theblessedlife
+#ressurectionsunday… https://t.co/D5Tw5uUMrU",Connecticut
+15,"God blessed me &amp; hopefully this contributes to your health journey. No worries but I am virus paranoid about 13,000+ people dying around me in the US. #Corona #Immune #Health #Mindfullness #AntiVirus #Bodyhealth… https://t.co/eNPuUsx14Q",0.0,"God blessed me &amp; hopefully this contributes to your health journey. No worries but I am virus paranoid about 13,000+ people dying around me in the US. #Corona #Immune #Health #Mindfullness #AntiVirus #Bodyhealth… https://t.co/eNPuUsx14Q",Georgia
+16,"The pigeons and the cops are the only ones roaming free the streets of New York City.
+.
+.
+.
+#pigeons #nypd #nycpolice #timessquare #timessquarenyc #coronavirus #corona #virus #isolation #COVID19 #emptystreets… https://t.co/JCkH7R6zk0",0.0,"The pigeons and the cops are the only ones roaming free the streets of New York City.
+.
+.
+.
+#pigeons #nypd #nycpolice #timessquare #timessquarenyc #coronavirus #corona #virus #isolation #COVID19 #emptystreets… https://t.co/JCkH7R6zk0",New York
+17,"Hell yeah‼️‼️‼️I been looking high &amp; low. Yet not a roll to be found 🤦🏽‍♀️💅🏽😭
+Ijs‼️ Can y’all please stop buying up ALL the damn tissue? Geesh‼️‼️‼️
+#coronamemes #tissue #charmin #melaninpoppin #corona #coronavid19… https://t.co/pJhQxi0l4Y",0.15,"Hell yeah‼️‼️‼️I been looking high &amp; low. Yet not a roll to be found 🤦🏽‍♀️💅🏽😭
+Ijs‼️ Can y’all please stop buying up ALL the damn tissue? Geesh‼️‼️‼️
+#coronamemes #tissue #charmin #melaninpoppin #corona #coronavid19… https://t.co/pJhQxi0l4Y",Tennessee
+18,Fresh Air in the Park #artmuseum #corona #art #covid_19 #outside #staysafe @ Nassau County Museum of Art https://t.co/ZHCZTN3GyD,-0.1,Fresh Air in the Park #artmuseum #corona #art #covid_19 #outside #staysafe @ Nassau County Museum of Art https://t.co/ZHCZTN3GyD,New York
+19,Happy Easter!  Our Redeemer Lives. #easter #easterdecor #easterathome #corona #prospecthillinn #quarantinelife #tablescapechallenge @ Prospect Hill Inn &amp; Restaurant https://t.co/INKrVKd4Iq,0.15,Happy Easter!  Our Redeemer Lives. #easter #easterdecor #easterathome #corona #prospecthillinn #quarantinelife #tablescapechallenge @ Prospect Hill Inn &amp; Restaurant https://t.co/INKrVKd4Iq,Virginia
+20,"QUEEN CORONA 
+#Goth #Glam with riconasty x thescottedit 🦠🧝🏼‍♀️ @ Los Angeles, California https://t.co/ut6BMNAcPa",1.0,"QUEEN CORONA 
+#Goth #Glam with riconasty x thescottedit 🦠🧝🏼‍♀️ @ Los Angeles, California https://t.co/ut6BMNAcPa",California
+21,"Had a visit from the Easter Bunny today! @ Corona, California https://t.co/boB5zjyb7L",0.0,"Had a visit from the Easter Bunny today! @ Corona, California https://t.co/boB5zjyb7L",California
+22,"Current situation: Mason is 100% over my excessive corona dog walks (as are the non-fur children)...currently still on the side of the road.  Send a tent? 🤦🏻‍♀️🐶🤪 @ Summit, New Jersey https://t.co/JQCDPKquvT",0.0,"Current situation: Mason is 100% over my excessive corona dog walks (as are the non-fur children)...currently still on the side of the road.  Send a tent? 🤦🏻‍♀️🐶🤪 @ Summit, New Jersey https://t.co/JQCDPKquvT",New Jersey
+23,"Happy Easter #BunnyYoga 🐰
 
 This is when we did #Bunny #FaceYoga 😆 before corona 
 
-The bunny is chilling while humans are working out 😂 @ Mirai Clinical https://t.co/quc29T2hjs",California,5,California,23931
-12,Content #iparkmusic #oobang #love #family #fun #hope #love #smile #corona #coronavirus @ IPARK MUSIC CO. https://t.co/aX9mTmFxS7,California,5,California,23931
-13,"Grandma V and Aunt B always made stuffed celery.  Sometimes using the pimento cheese in a jar.  I added some spring radishes with kosher salt to go on the side. @ Corona, California https://t.co/JYsHBNw7LX",California,5,California,23931
-14,"Cheers with coronausa 🍺
+The bunny is chilling while humans are working out 😂 @ Mirai Clinical https://t.co/quc29T2hjs",-0.03787878787878788,"Happy Easter #BunnyYoga 🐰
+
+This is when we did #Bunny #FaceYoga 😆 before corona 
+
+The bunny is chilling while humans are working out 😂 @ Mirai Clinical https://t.co/quc29T2hjs",California
+24,"While visiting USP Alcatraz I bought a harmonica not knowing that it will entertain my son so much... #keepingHimBusy #USPAlcatraz #harmonica @ Corona, New York https://t.co/bIy2CrRCLb",0.15000000000000002,"While visiting USP Alcatraz I bought a harmonica not knowing that it will entertain my son so much... #keepingHimBusy #USPAlcatraz #harmonica @ Corona, New York https://t.co/bIy2CrRCLb",New York
+25,"@vinnie_orcel eat your heart out!!  Who’s jealous? #eastersunday #family #daughtertime #dadlife #lovemyfamily #quarantine #corona #covid @ Cranston, Rhode Island https://t.co/3iHthTCvrP",0.1,"@vinnie_orcel eat your heart out!!  Who’s jealous? #eastersunday #family #daughtertime #dadlife #lovemyfamily #quarantine #corona #covid @ Cranston, Rhode Island https://t.co/3iHthTCvrP",Rhode Island
+26,"Four mile #EasterSunday run through #JacksonHeights, #Elmhurst and #Corona.  #keeprunning #covid19 lgbtqiarunners #instagay #gayrunner #gayrunners #gayathletes #gayfitness #gayfit #lgbtqrunners #lgbtqrunner… https://t.co/Vfeynx5cJ9",0.0,"Four mile #EasterSunday run through #JacksonHeights, #Elmhurst and #Corona.  #keeprunning #covid19 lgbtqiarunners #instagay #gayrunner #gayrunners #gayathletes #gayfitness #gayfit #lgbtqrunners #lgbtqrunner… https://t.co/Vfeynx5cJ9",New York
+27,WHICH PROFITSTYLE YALL FUKKIN WITH ON THE EP?????? 1 2 3 4 5 Or 6 LEAVE COMMENTS. IF U AINT HEARD IT YET LINK IN BIO AND ITS AVAILABLE EVERYWHERE.......  #corona #profitg #viral #explore #unsigned #indie #major… https://t.co/7LJkgfq077,0.5375,WHICH PROFITSTYLE YALL FUKKIN WITH ON THE EP?????? 1 2 3 4 5 Or 6 LEAVE COMMENTS. IF U AINT HEARD IT YET LINK IN BIO AND ITS AVAILABLE EVERYWHERE.......  #corona #profitg #viral #explore #unsigned #indie #major… https://t.co/7LJkgfq077,Tennessee
+28,Corona NY Sun Apr 12th PM Forecast: TONIGHT Partly Cloudy Lo 31 SATURDAY Sunny Hi 41,0.15416666666666667,Corona NY Sun Apr 12th PM Forecast: TONIGHT Partly Cloudy Lo 31 SATURDAY Sunny Hi 41,New York
+29,Grilling it up before the weather gets rough. - Drinking a Corona Premier by @GrupoModelo_MX @ Halligan Bar South  — https://t.co/tnBU2l5Q5G,0.04545454545454545,Grilling it up before the weather gets rough. - Drinking a Corona Premier by @GrupoModelo_MX @ Halligan Bar South  — https://t.co/tnBU2l5Q5G,North Carolina
+30,"Celebrating Easter Corona Virus style @ Lakeview East, Chicago https://t.co/pAyaMFZZM9",-0.1,"Celebrating Easter Corona Virus style @ Lakeview East, Chicago https://t.co/pAyaMFZZM9",Illinois
+31,Content #iparkmusic #oobang #love #family #fun #hope #love #smile #corona #coronavirus @ IPARK MUSIC CO. https://t.co/aX9mTmFxS7,-0.1,Content #iparkmusic #oobang #love #family #fun #hope #love #smile #corona #coronavirus @ IPARK MUSIC CO. https://t.co/aX9mTmFxS7,California
+32,"We sure are missing baseball, thank you to Firelands Athletic Boosters .... #seniors2020 #baseball #corona #nothowthiswassupposedtogo @ Firelands High School https://t.co/wWomXhV7IP",0.4,"We sure are missing baseball, thank you to Firelands Athletic Boosters .... #seniors2020 #baseball #corona #nothowthiswassupposedtogo @ Firelands High School https://t.co/wWomXhV7IP",Ohio
+33,He is Risen! Risen indeed. We’ve already gotten through this!  #covıd19 #corona #churchstreeteast #downtownmobile #mobilealabama #downtownmobileal #ukulele #ukulelecover #ukulelecovers #banjolele #banjolelecover… https://t.co/LsyTFCp34v,0.15333333333333332,He is Risen! Risen indeed. We’ve already gotten through this!  #covıd19 #corona #churchstreeteast #downtownmobile #mobilealabama #downtownmobileal #ukulele #ukulelecover #ukulelecovers #banjolele #banjolelecover… https://t.co/LsyTFCp34v,Alabama
+34,“i told u to stop playin wit me!”🔫 😂 #FuckCorona #FuckCovid19 #Outside #StayAtHome #Corona #CoronaVirus #Queens #NewYork #Covid_19 #Knight #Caption #StopPlayin #Findiddy #FindiddyDaDon #SleezyFinBeezly #EwokHefner… https://t.co/rhUNbacK4M,0.6666666666666666,“i told u to stop playin wit me!”🔫 😂 #FuckCorona #FuckCovid19 #Outside #StayAtHome #Corona #CoronaVirus #Queens #NewYork #Covid_19 #Knight #Caption #StopPlayin #Findiddy #FindiddyDaDon #SleezyFinBeezly #EwokHefner… https://t.co/rhUNbacK4M,New York
+35,"#LiveStreamMusic FrankB attempting a show, corona https://t.co/TxsLh9zctE #Rock #Folk",0.0,"#LiveStreamMusic FrankB attempting a show, corona https://t.co/TxsLh9zctE #Rock #Folk",Tennessee
+36,Me and My Sexy Baes Took A Trip To The Beach BEFORE Corona Took Over Our Lives. 💦 🏝 🏖🧜🏾‍♀️ 🧜🏾‍♀️ 🧜🏾‍♀️ 🌺🌴🌈☀️ @ WonderWorks Myrtle Beach https://t.co/MgqUoMroMX,0.0,Me and My Sexy Baes Took A Trip To The Beach BEFORE Corona Took Over Our Lives. 💦 🏝 🏖🧜🏾‍♀️ 🧜🏾‍♀️ 🧜🏾‍♀️ 🌺🌴🌈☀️ @ WonderWorks Myrtle Beach https://t.co/MgqUoMroMX,South Carolina
+37,"Grandma V and Aunt B always made stuffed celery.  Sometimes using the pimento cheese in a jar.  I added some spring radishes with kosher salt to go on the side. @ Corona, California https://t.co/JYsHBNw7LX",0.2426136363636364,"Grandma V and Aunt B always made stuffed celery.  Sometimes using the pimento cheese in a jar.  I added some spring radishes with kosher salt to go on the side. @ Corona, California https://t.co/JYsHBNw7LX",California
+38,"“I got my shooters about to renovate the room” 
+New music!!
+Just dropped!!! 
+#SoundCloud 
+#adoeverse #adoe #ghe #zuut #reapa #broward #control #miami #florida #new #explore #corona #chicago #nbayoungboy… https://t.co/w9mVkM9J3R",0.3083333333333333,"“I got my shooters about to renovate the room” 
+New music!!
+Just dropped!!! 
+#SoundCloud 
+#adoeverse #adoe #ghe #zuut #reapa #broward #control #miami #florida #new #explore #corona #chicago #nbayoungboy… https://t.co/w9mVkM9J3R",Florida
+39,"This whole corona thing has only added more fuel ⛽️ to my fire 🔥 Making that chip on my shoulder just a little bit bigger! 💪🏼 Puttin’ in the work on this speed bag, I’m just getting started! 🥊 #RightHere #RightNow… https://t.co/EShKGGtgFP",0.27625621448863635,"This whole corona thing has only added more fuel ⛽️ to my fire 🔥 Making that chip on my shoulder just a little bit bigger! 💪🏼 Puttin’ in the work on this speed bag, I’m just getting started! 🥊 #RightHere #RightNow… https://t.co/EShKGGtgFP",New York
+40,"The 4yr old fetched me a beer. It's a good day. I'll remember it forever. Happy Easter. 
+
+#Easter2020 #VictoriasWay #Corona #Quarantine @ Badstreet, Philadelphia, Pa https://t.co/8KoHaoNix9",0.1025,"The 4yr old fetched me a beer. It's a good day. I'll remember it forever. Happy Easter. 
+
+#Easter2020 #VictoriasWay #Corona #Quarantine @ Badstreet, Philadelphia, Pa https://t.co/8KoHaoNix9",Pennsylvania
+41,"Corona doesn’t stand a chance against Easter....
+#easterdinner  #easter2020 #posole  #texasismystate @ Austin, Texas https://t.co/H6TV33ePX5",0.13636363636363635,"Corona doesn’t stand a chance against Easter....
+#easterdinner  #easter2020 #posole  #texasismystate @ Austin, Texas https://t.co/H6TV33ePX5",Texas
+42,Be still keep calm so we can heal #bestill #lockdown #keepfaith #besafe #heal #stayhome #corona #coronachronicles #happysunday #sundayvibes #Sunday #eastersunday #happyeaster  #pastel #pastelcolors #lolife… https://t.co/4z0Xw7jEWc,0.0,Be still keep calm so we can heal #bestill #lockdown #keepfaith #besafe #heal #stayhome #corona #coronachronicles #happysunday #sundayvibes #Sunday #eastersunday #happyeaster  #pastel #pastelcolors #lolife… https://t.co/4z0Xw7jEWc,Louisiana
+43,Tucson corona holidazapocalypse proper @ Robles Pass https://t.co/yDzFIZlb4L,0.30000000000000004,Tucson corona holidazapocalypse proper @ Robles Pass https://t.co/yDzFIZlb4L,Arizona
+44,"Easter 2020
+Mahi, tuna, brussel sprouts ... and wine, not Corona @ Parkland, Florida https://t.co/ITkcAo1deJ",-0.06666666666666668,"Easter 2020
+Mahi, tuna, brussel sprouts ... and wine, not Corona @ Parkland, Florida https://t.co/ITkcAo1deJ",Florida
+45,Sandal Sale! Don’t track in what should be left outside! Especially now! #corona #covid19 #vampirediaries #originals #legacies available in our online store! @ Vampire Stalkers/Mystic Falls Tours https://t.co/EjDhJ6PGb8,0.1452020202020202,Sandal Sale! Don’t track in what should be left outside! Especially now! #corona #covid19 #vampirediaries #originals #legacies available in our online store! @ Vampire Stalkers/Mystic Falls Tours https://t.co/EjDhJ6PGb8,Georgia
+46,"Jesus, stay inside! Social distancing means everyone! #easter #corona #covi̇d19 #repost #socialdistancing @ Midlothian, Illinois https://t.co/z9yDxaIGAY",-0.06666666666666668,"Jesus, stay inside! Social distancing means everyone! #easter #corona #covi̇d19 #repost #socialdistancing @ Midlothian, Illinois https://t.co/z9yDxaIGAY",Illinois
+47,Easter 2020. One that will live forever in our memories. At least the Easter Bunny could make his appointed rounds. #Quarantine #Easter #Easter2020 #Corona #QuarantineEaster #HeIsRisen #HeIsRisenIndeed #EasterBasket… https://t.co/wcSciypLXn,0.0,Easter 2020. One that will live forever in our memories. At least the Easter Bunny could make his appointed rounds. #Quarantine #Easter #Easter2020 #Corona #QuarantineEaster #HeIsRisen #HeIsRisenIndeed #EasterBasket… https://t.co/wcSciypLXn,Tennessee
+48,"Don’t let the Corona Get You! Stay Safe and Happy Easter .... @ Ewa Beach, Hawaii https://t.co/oVL502jJVU",-0.1,"Don’t let the Corona Get You! Stay Safe and Happy Easter .... @ Ewa Beach, Hawaii https://t.co/oVL502jJVU",Hawaii
+49,"Don’t let the Corona Get You! Stay Safe and Happy Easter .... @ Ewa Beach, Hawaii https://t.co/Z5jAkHVfp0",-0.06666666666666668,"Don’t let the Corona Get You! Stay Safe and Happy Easter .... @ Ewa Beach, Hawaii https://t.co/Z5jAkHVfp0",Hawaii
+50,"🇺🇸 US
+
+10 day forecast of 50,483 dead. This wave may last 123 days and see 9,376,156 cases and 131,266 deaths. Cases double every 5.6 days.
+
+❤️ Every Life Counts, Pls #StayAtHome
+
+🏥: https://t.co/an5Q5LWRAu
+📈: https://t.co/c0cjARzST8",-0.1,"🇺🇸 US
+
+10 day forecast of 50,483 dead. This wave may last 123 days and see 9,376,156 cases and 131,266 deaths. Cases double every 5.6 days.
+
+❤️ Every Life Counts, Pls #StayAtHome
+
+🏥: https://t.co/an5Q5LWRAu
+📈: https://t.co/c0cjARzST8",Kansas
+51,"Talking to the hand because it is always good to be around someone you know you can trust for real. #wilson #corona #castaway #tomhanks #solo #trust #conversation @ Atlanta, Georgia https://t.co/ArpyI1xqN6",-0.2,"Talking to the hand because it is always good to be around someone you know you can trust for real. #wilson #corona #castaway #tomhanks #solo #trust #conversation @ Atlanta, Georgia https://t.co/ArpyI1xqN6",Georgia
+52,Corona 28 - Another great week! Let’s see those videos!#hippoquaranteams @ CrossFit Hippo https://t.co/Hgs4KezP3h,-0.06666666666666668,Corona 28 - Another great week! Let’s see those videos!#hippoquaranteams @ CrossFit Hippo https://t.co/Hgs4KezP3h,Texas
+53,"Cheers with coronausa 🍺
 Happy Easter Sunday!!!🥕🐰🐣🐥
-#coronaextra #corona #cervezacoronaextra @ San Pedro, California https://t.co/CjykBKqMN1",California,5,California,23931
-15,"Happy Easter! Sending you all the love and hugs🐰💕
+#coronaextra #corona #cervezacoronaextra @ San Pedro, California https://t.co/CjykBKqMN1",-0.06666666666666668,"Cheers with coronausa 🍺
+Happy Easter Sunday!!!🥕🐰🐣🐥
+#coronaextra #corona #cervezacoronaextra @ San Pedro, California https://t.co/CjykBKqMN1",California
+54,Mr. Mark’s private tap lesson is looking and sounding amazing🤪🤪 Even a video to prove!!🤩🤯🤯 #tap #lesson #private #class #look #sound #amazing #video #stayhome #stayhealthy #staysafe #corona #covid19 #explorepage… https://t.co/Hdm4SnCs0B,1.0,Mr. Mark’s private tap lesson is looking and sounding amazing🤪🤪 Even a video to prove!!🤩🤯🤯 #tap #lesson #private #class #look #sound #amazing #video #stayhome #stayhealthy #staysafe #corona #covid19 #explorepage… https://t.co/Hdm4SnCs0B,New Jersey
+55,"Happy Easter! Sending you all the love and hugs🐰💕
 
 •How are you spending your Easter? I’m baking 😅☺️
 .
@@ -37,14 +170,32 @@ Happy Easter Sunday!!!🥕🐰🐣🐥
 
 .
 .
-#corona #quarentine #photography #selfportrait #canon #camera #indoorphotography #model… https://t.co/gukTmWjmHI",California,5,California,23931
-16,"Celebrating Easter with the family from, Corona, Riverside, Foothills Ranch. Mission Viejo, Hermosa Beach, Utha, Colombia: Bogota, Buga.🌄🐰💖
+#corona #quarentine #photography #selfportrait #canon #camera #indoorphotography #model… https://t.co/gukTmWjmHI",0.3875000000000001,"Happy Easter! Sending you all the love and hugs🐰💕
+
+•How are you spending your Easter? I’m baking 😅☺️
+.
+.
+.
+.
+.
+.
+.
+.
+
+.
+.
+#corona #quarentine #photography #selfportrait #canon #camera #indoorphotography #model… https://t.co/gukTmWjmHI",California
+56,"Celebrating Easter with the family from, Corona, Riverside, Foothills Ranch. Mission Viejo, Hermosa Beach, Utha, Colombia: Bogota, Buga.🌄🐰💖
 #happyeaster #felicespascuas
 #family #familia
 #quarentine
-#quarentinefun @… https://t.co/3vsYF8cG37",California,5,California,23931
-17,Corona CA Sun Apr 12th PM Forecast: TONIGHT Chance Of Showers Lo 48 MONDAY Chance Of Showers Hi 64,California,5,California,23931
-18,"Happy Easter! Sending you all the love and hugs🐰💕 •How are you spending your Easter? I’m baking 😅☺️
+#quarentinefun @… https://t.co/3vsYF8cG37",0.75,"Celebrating Easter with the family from, Corona, Riverside, Foothills Ranch. Mission Viejo, Hermosa Beach, Utha, Colombia: Bogota, Buga.🌄🐰💖
+#happyeaster #felicespascuas
+#family #familia
+#quarentine
+#quarentinefun @… https://t.co/3vsYF8cG37",California
+57,Corona CA Sun Apr 12th PM Forecast: TONIGHT Chance Of Showers Lo 48 MONDAY Chance Of Showers Hi 64,0.0,Corona CA Sun Apr 12th PM Forecast: TONIGHT Chance Of Showers Lo 48 MONDAY Chance Of Showers Hi 64,California
+58,"Happy Easter! Sending you all the love and hugs🐰💕 •How are you spending your Easter? I’m baking 😅☺️
 .
 .
 .
@@ -54,37 +205,435 @@ Happy Easter Sunday!!!🥕🐰🐣🐥
 .
 . .
 .
-#corona #quarentine #photography #selfportrait #canon #camera #indoorphotography #model… https://t.co/n9wLTLkgTA",California,5,California,23931
-19,"Current Corona Bookclub...only a tiny bit ambitious 😁👱🏽‍♀️📚...what are y’all reading - any recs?? 💛🙏🏽 #ownyourvoice #quarantinebookclub #topknotturnup @ Artists District, Los Angeles https://t.co/ybnnBfxISs",California,5,California,23931
-20,"Happy Easter corona virus...
-😷😢🐰🐥 @ Santa Barbara, California https://t.co/NE3g4PrgB6",California,5,California,23931
-21,"Happy Easter 🐣 @ Corona, California https://t.co/5XItzvJMea",California,5,California,23931
-22,"EASTER SUNDAY CORONA 2020 !
-THANK GOD FOR BLESSING ME TO BE ABLE TO COOK AND PROVIDE A MEAL FOR MY FAMILY amaeya4 WE DID IT!! 😍❣ @ Morada, California https://t.co/Wf7pQzfYQk",California,5,California,23931
-23,"Fighting COVID 19, Happy Easter 🐰🐇 @ Corona, California https://t.co/D412M2zPt6",California,5,California,23931
-24,"I'm enjoying the new found time to go through the archives and work on images.  Lots of never before seen images, like this one from traditiongolfclub.  I'm going to name this new assorted collection, the ""Corona… https://t.co/6vvvM04k5n",California,5,California,23931
-25,"Glazed Easter ham, baby carrots, roasted asparagus with Parmesan. @ Corona, California https://t.co/K9IFP4Q4wq",California,5,California,23931
-26,"Potato latkes topped with homemade applesauce.
+#corona #quarentine #photography #selfportrait #canon #camera #indoorphotography #model… https://t.co/n9wLTLkgTA",0.0,"Happy Easter! Sending you all the love and hugs🐰💕 •How are you spending your Easter? I’m baking 😅☺️
 .
 .
 .
 .
-#latkas #potato #applesauce #homecooking #easterdinner #easter #food @ Corona, California https://t.co/Okpo25SqT0",California,5,California,23931
-27,"Lemme see YOURS...
-#corona #easter2020 #outfits @ Los Angeles, California https://t.co/BNq7PlYjgp",California,5,California,23931
-28,"Just posted a photo @ Corona, California https://t.co/B9fxUkWfXl",California,5,California,23931
-29,Sole Proprietors Need assistance applying for he PPP or P3 single employee application Dm me ( must be legit CORP with SSN Or EIN please DBA accepted. #iparkmusic #funds #corona #coronavirus #help #love #life @… https://t.co/dPIikunOUY,California,5,California,23931
-30,"I pray you had a blessed Day!  Bunn Bunn picture and drawing by my Lily Rae♥️✝️💕Happy Easter forever!              #mykindergarten artist @ Sierra Del Oro, Corona https://t.co/slz9TKV6Zc",California,5,California,23931
-31,"As you can tell by the picture, happiness is just around the corner, and the corner represents the end of this corona virus shit lol 
-#edm #producer #songwriter #losangeles #hollywood #griffithpark #throwback #sunset… https://t.co/LTK51dYSwb",California,5,California,23931
-32,It’s Monday Time To Get Bk to Getting this Corona Money Make the Best of the life I have I Love All Of You Thank You For All The Likes You Guys Keep Me Goin No Doubt The Hustle Real Love… https://t.co/2SeNblyl8p,California,5,California,23931
-33,To all you people out there taking this corona virus shit as a joke. I just got the bad news today that my uncle Johnny caught the Corona virus. This goes out to all the people I know not listening &amp; not taking this… https://t.co/zb9lG94HcL,California,5,California,23931
-34,"Home on the range at Morrisey Ranch. Nothin’ like a day in nature to counter the corona blues. #artinthetimeofcorona #ranchlife #westernliving #freshair @ Hornitos, California https://t.co/JbFE9exybJ",California,5,California,23931
-35,Corona CA Mon Apr 13th AM Forecast: TODAY Chance Of Showers Hi 64 TONIGHT Patchy Fog Lo 48,California,5,California,23931
-36,"I feel like a Doctor of Real Estate 😷
-#luxury #malibu #property #sell #beach #house #work #corona #covid #19 #family #show #surf #ocean #instagood #real #fun #instagram #summer #is #comingsoon @ Luxury Malibu Property https://t.co/tXImFRkdMs",California,5,California,23931
-37,Positive Vibes Inspirational Messages and Love 💕 #iparkmusic I performs acts of random kindness Music Company 🎶 #thankshealthheroes #love #positiveenergy #positivity #corona #coronavirus #quarantine @ IPARK MUSIC CO. https://t.co/UyHXE1LQ2S,California,5,California,23931
-38,"Monday market update for Corona Del Mar, California 92625
+.
+.
+.
+. .
+.
+#corona #quarentine #photography #selfportrait #canon #camera #indoorphotography #model… https://t.co/n9wLTLkgTA",California
+59,"Nobody can say for sure exactly what our return to normalcy will look like, or how long it will take to get there.
+.
+.
+.
+#brooklynbridge #brooklynbridgepark #coronavirus #corona #virus #isolation #COVID19… https://t.co/vLDdpky9lZ",0.75,"Nobody can say for sure exactly what our return to normalcy will look like, or how long it will take to get there.
+.
+.
+.
+#brooklynbridge #brooklynbridgepark #coronavirus #corona #virus #isolation #COVID19… https://t.co/vLDdpky9lZ",New York
+60,"Current Corona Bookclub...only a tiny bit ambitious 😁👱🏽‍♀️📚...what are y’all reading - any recs?? 💛🙏🏽 #ownyourvoice #quarantinebookclub #topknotturnup @ Artists District, Los Angeles https://t.co/ybnnBfxISs",0.2333333333333333,"Current Corona Bookclub...only a tiny bit ambitious 😁👱🏽‍♀️📚...what are y’all reading - any recs?? 💛🙏🏽 #ownyourvoice #quarantinebookclub #topknotturnup @ Artists District, Los Angeles https://t.co/ybnnBfxISs",California
+61,"#hotnigga #entrepreneur #baltimore #maskup #stayhome #quarantine #betterlife #corona #mask #maryland #livesmart # thebestatit @ Baltimore, Maryland https://t.co/6qXVzTuXV1",0.08333333333333333,"#hotnigga #entrepreneur #baltimore #maskup #stayhome #quarantine #betterlife #corona #mask #maryland #livesmart # thebestatit @ Baltimore, Maryland https://t.co/6qXVzTuXV1",Maryland
+62,"#Repost scout_barthold
+・・・
+Doing my best to keep the Rona away. PPE = Papillon Protective Equipment  #facemask #covid19 #corona #PPE
+.
+.
+.
+.
+.
+#papillon #papillons #papillonLove #papillonsofInstagram #papillonDog… https://t.co/j6cam8Qx01",0.0,"#Repost scout_barthold
+・・・
+Doing my best to keep the Rona away. PPE = Papillon Protective Equipment  #facemask #covid19 #corona #PPE
+.
+.
+.
+.
+.
+#papillon #papillons #papillonLove #papillonsofInstagram #papillonDog… https://t.co/j6cam8Qx01",Texas
+63,"RIP Yelena Corona  4-10-15👼🏻 You will forever be in our hearts ♥️ and will never be forgotten. We love you 😘 our sweet angel. @ Carmel, Indiana https://t.co/lIgOWmZdv1",1.0,"RIP Yelena Corona  4-10-15👼🏻 You will forever be in our hearts ♥️ and will never be forgotten. We love you 😘 our sweet angel. @ Carmel, Indiana https://t.co/lIgOWmZdv1",Indiana
+64,"This #Corona fina get beat! #Piñata @ Austin, Texas https://t.co/6HQLlt9PJc",0.425,"This #Corona fina get beat! #Piñata @ Austin, Texas https://t.co/6HQLlt9PJc",Texas
+65,"My very creative 😉 active 🤸🏽‍♂️youngest granddaughter, @adabneyy , has had it with 2020! So much so that she has a new name for COVID-19: Corona LaShay DaVirus! 😏💛 @ Atlanta, Georgia https://t.co/t6b8pVMlTW",0.0,"My very creative 😉 active 🤸🏽‍♂️youngest granddaughter, @adabneyy , has had it with 2020! So much so that she has a new name for COVID-19: Corona LaShay DaVirus! 😏💛 @ Atlanta, Georgia https://t.co/t6b8pVMlTW",Georgia
+66,"Happy Easter corona virus...
+😷😢🐰🐥 @ Santa Barbara, California https://t.co/NE3g4PrgB6",0.3,"Happy Easter corona virus...
+😷😢🐰🐥 @ Santa Barbara, California https://t.co/NE3g4PrgB6",California
+67,"“Spring unlocks the flowers to paint the laughing soil.”
+— Bishop Reginald Heber @EmpireStreetSty https://t.co/vUmegbG15J 💐💐
+meetshannonlee @ Flushing Meadows - Corona Park https://t.co/MNxX2z9hgu",0.8,"“Spring unlocks the flowers to paint the laughing soil.”
+— Bishop Reginald Heber @EmpireStreetSty https://t.co/vUmegbG15J 💐💐
+meetshannonlee @ Flushing Meadows - Corona Park https://t.co/MNxX2z9hgu",New York
+68,Shop this and more tomorrow at NOON Monday 4/13. Limited quantities on the Vintage Camo Jackets. Retail $98 plus FREE SHIPPING. ✨shine on ✨ #shineon #sparkleoutloud #supportsmallbusiness #shopsmall #corona… https://t.co/EU6CPfUL08,0.0,Shop this and more tomorrow at NOON Monday 4/13. Limited quantities on the Vintage Camo Jackets. Retail $98 plus FREE SHIPPING. ✨shine on ✨ #shineon #sparkleoutloud #supportsmallbusiness #shopsmall #corona… https://t.co/EU6CPfUL08,Pennsylvania
+69,So many masks... #llalladesigns #sewing #corona #handcrafted #embroidery #pfaff #projectbags #pompoms #domore2020 #graceandkindness #masks #stayhome @ Lla Lla Designs https://t.co/K0P4toRdMN,0.2761904761904762,So many masks... #llalladesigns #sewing #corona #handcrafted #embroidery #pfaff #projectbags #pompoms #domore2020 #graceandkindness #masks #stayhome @ Lla Lla Designs https://t.co/K0P4toRdMN,Indiana
+70,"Can somebody pretty please bring my baby back cause corona virus is taking all my time away from her. I lovenu #shilohgrace with every part of my heart and soul!
+.
+.
+.
+#telos🌎 #telopaththtv #realyaadmantv #reggae… https://t.co/RXR9KPO0Pu",-0.06666666666666668,"Can somebody pretty please bring my baby back cause corona virus is taking all my time away from her. I lovenu #shilohgrace with every part of my heart and soul!
+.
+.
+.
+#telos🌎 #telopaththtv #realyaadmantv #reggae… https://t.co/RXR9KPO0Pu",New York
+71,Happy Easter from the Amicone’s! Knowing I get to be with these guys forever makes it much easier to be away from them during all this corona madness. Still miss and love you guys!… https://t.co/hmqgWRCpmy,-0.06666666666666668,Happy Easter from the Amicone’s! Knowing I get to be with these guys forever makes it much easier to be away from them during all this corona madness. Still miss and love you guys!… https://t.co/hmqgWRCpmy,Florida
+72,"Happy Easter 🐣 @ Corona, California https://t.co/5XItzvJMea",0.6083333333333333,"Happy Easter 🐣 @ Corona, California https://t.co/5XItzvJMea",California
+73,"EASTER SUNDAY CORONA 2020 !
+THANK GOD FOR BLESSING ME TO BE ABLE TO COOK AND PROVIDE A MEAL FOR MY FAMILY amaeya4 WE DID IT!! 😍❣ @ Morada, California https://t.co/Wf7pQzfYQk",0.8,"EASTER SUNDAY CORONA 2020 !
+THANK GOD FOR BLESSING ME TO BE ABLE TO COOK AND PROVIDE A MEAL FOR MY FAMILY amaeya4 WE DID IT!! 😍❣ @ Morada, California https://t.co/Wf7pQzfYQk",California
+74,"Fighting COVID 19, Happy Easter 🐰🐇 @ Corona, California https://t.co/D412M2zPt6",0.78125,"Fighting COVID 19, Happy Easter 🐰🐇 @ Corona, California https://t.co/D412M2zPt6",California
+75,"I'm enjoying the new found time to go through the archives and work on images.  Lots of never before seen images, like this one from traditiongolfclub.  I'm going to name this new assorted collection, the ""Corona… https://t.co/6vvvM04k5n",0.8,"I'm enjoying the new found time to go through the archives and work on images.  Lots of never before seen images, like this one from traditiongolfclub.  I'm going to name this new assorted collection, the ""Corona… https://t.co/6vvvM04k5n",California
+76,"Glazed Easter ham, baby carrots, roasted asparagus with Parmesan. @ Corona, California https://t.co/K9IFP4Q4wq",0.2575757575757576,"Glazed Easter ham, baby carrots, roasted asparagus with Parmesan. @ Corona, California https://t.co/K9IFP4Q4wq",California
+77,"Potato latkes topped with homemade applesauce.
+.
+.
+.
+.
+#latkas #potato #applesauce #homecooking #easterdinner #easter #food @ Corona, California https://t.co/Okpo25SqT0",0.0,"Potato latkes topped with homemade applesauce.
+.
+.
+.
+.
+#latkas #potato #applesauce #homecooking #easterdinner #easter #food @ Corona, California https://t.co/Okpo25SqT0",California
+78,"🇺🇸 US
+
+10 day forecast of 50,164 dead. This wave may last 122 days and see 8,571,536 cases and 120,002 deaths. Cases double every 6.5 days.
+
+❤️ Every Life Counts, Pls #StayAtHome
+
+🏥: https://t.co/an5Q5LWRAu
+📈: https://t.co/c0cjARzST8",0.0,"🇺🇸 US
+
+10 day forecast of 50,164 dead. This wave may last 122 days and see 8,571,536 cases and 120,002 deaths. Cases double every 6.5 days.
+
+❤️ Every Life Counts, Pls #StayAtHome
+
+🏥: https://t.co/an5Q5LWRAu
+📈: https://t.co/c0cjARzST8",Kansas
+79,"Lemme see YOURS...
+#corona #easter2020 #outfits @ Los Angeles, California https://t.co/BNq7PlYjgp",0.6,"Lemme see YOURS...
+#corona #easter2020 #outfits @ Los Angeles, California https://t.co/BNq7PlYjgp",California
+80,"This whole Corona Crisis got me really really stress and exhausted. Praying this whole thing ends soon.
+.
+.
+.
+#love #frontliners #photooftheday #me #instamood #cute #igers #picoftheday #nurselife #guy #beautiful… https://t.co/8LOoDRKKxI",0.0,"This whole Corona Crisis got me really really stress and exhausted. Praying this whole thing ends soon.
+.
+.
+.
+#love #frontliners #photooftheday #me #instamood #cute #igers #picoftheday #nurselife #guy #beautiful… https://t.co/8LOoDRKKxI",New York
+81,My corona-free activity for today!🧗🏻‍♀️🙌🏻 #sundayhike @ Rattlesnake Mountain https://t.co/xnyQPTHzv4,0.11666666666666667,My corona-free activity for today!🧗🏻‍♀️🙌🏻 #sundayhike @ Rattlesnake Mountain https://t.co/xnyQPTHzv4,New Hampshire
+82,"Don’t forget to stay clean and safe!! #dbz #clean #corona #virus #covid #dragonballz @ Sarasota, Florida https://t.co/Wemp93OFiM",0.0,"Don’t forget to stay clean and safe!! #dbz #clean #corona #virus #covid #dragonballz @ Sarasota, Florida https://t.co/Wemp93OFiM",Florida
+83,🏠 RT @Fresssed: Yo corona I’m telling you right now there’s no way I’m staying inside when it’s July/August and 80 degrees I’m sorry,0.5048611111111111,🏠 RT @Fresssed: Yo corona I’m telling you right now there’s no way I’m staying inside when it’s July/August and 80 degrees I’m sorry,Massachusetts
+84,"Goodbye 21! Wow! Happy 22nd Birthday Ryan!!!! #coronabeer lunch at home. Best we can do because of #corona ....still delivering delicious food (is dessert actually food?) in Manhattan! Love you! @ Manhattan, New York https://t.co/hW85ZxmLyL",-0.10714285714285716,"Goodbye 21! Wow! Happy 22nd Birthday Ryan!!!! #coronabeer lunch at home. Best we can do because of #corona ....still delivering delicious food (is dessert actually food?) in Manhattan! Love you! @ Manhattan, New York https://t.co/hW85ZxmLyL",New York
+85,"Just posted a photo @ Corona, California https://t.co/B9fxUkWfXl",0.5551948051948051,"Just posted a photo @ Corona, California https://t.co/B9fxUkWfXl",California
+86,"#corona #djtsalt #djtsaltt #tiktokdance @ Memphis, Tennessee https://t.co/IVCR41rhTA",0.0,"#corona #djtsalt #djtsaltt #tiktokdance @ Memphis, Tennessee https://t.co/IVCR41rhTA",Tennessee
+87,Corona Out Every Where 🧑🏾‍🔬😷😈🤟🏾 @ Area 51 https://t.co/zg2CpqaOdv,0.2,Corona Out Every Where 🧑🏾‍🔬😷😈🤟🏾 @ Area 51 https://t.co/zg2CpqaOdv,New Jersey
+88,"No Traditional Louisiana McDonald Crawfish Easter Boil This Year...😔😔😔😔😔😔😔😔😔😔😔😔😔
+I did a little one... it wasn’t Close...!😢😢😢😢 #DAMNYOU#CORONA
+#CoronaEaster
+#Easter2020
+#HappyEaster
+#crawfishboil
+#MarriedtoLouisisna… https://t.co/w507v5y0dX",0.7,"No Traditional Louisiana McDonald Crawfish Easter Boil This Year...😔😔😔😔😔😔😔😔😔😔😔😔😔
+I did a little one... it wasn’t Close...!😢😢😢😢 #DAMNYOU#CORONA
+#CoronaEaster
+#Easter2020
+#HappyEaster
+#crawfishboil
+#MarriedtoLouisisna… https://t.co/w507v5y0dX",
+89,"What many people are feeling during this Quarantine‼️ 🎼🎶🎤🎹#DazzlingDanette #PerformerLife #AEA #CovidCut #Corona #ThanksToHealthCareAndEssentialWorkers #HealingPowerOfMusic @ Jersey City, New Jersey https://t.co/CKzJIw31l1",-0.01323051948051948,"What many people are feeling during this Quarantine‼️ 🎼🎶🎤🎹#DazzlingDanette #PerformerLife #AEA #CovidCut #Corona #ThanksToHealthCareAndEssentialWorkers #HealingPowerOfMusic @ Jersey City, New Jersey https://t.co/CKzJIw31l1",New Jersey
+90,"CoronaRessurection
+#stayhome #homesweethome #lockdown #staycation #corona #covid @ The Holy Land https://t.co/XQrSjieGNu",0.04603174603174602,"CoronaRessurection
+#stayhome #homesweethome #lockdown #staycation #corona #covid @ The Holy Land https://t.co/XQrSjieGNu",Texas
+91,Sole Proprietors Need assistance applying for he PPP or P3 single employee application Dm me ( must be legit CORP with SSN Or EIN please DBA accepted. #iparkmusic #funds #corona #coronavirus #help #love #life @… https://t.co/dPIikunOUY,0.0,Sole Proprietors Need assistance applying for he PPP or P3 single employee application Dm me ( must be legit CORP with SSN Or EIN please DBA accepted. #iparkmusic #funds #corona #coronavirus #help #love #life @… https://t.co/dPIikunOUY,California
+92,"I pray you had a blessed Day!  Bunn Bunn picture and drawing by my Lily Rae♥️✝️💕Happy Easter forever!              #mykindergarten artist @ Sierra Del Oro, Corona https://t.co/slz9TKV6Zc",0.0,"I pray you had a blessed Day!  Bunn Bunn picture and drawing by my Lily Rae♥️✝️💕Happy Easter forever!              #mykindergarten artist @ Sierra Del Oro, Corona https://t.co/slz9TKV6Zc",California
+93,"#april2020 #stayhome #corona #covid19 @ Texana Plantation, Richmond https://t.co/ptekQz5oNQ",0.375,"#april2020 #stayhome #corona #covid19 @ Texana Plantation, Richmond https://t.co/ptekQz5oNQ",Texas
+94,"Watch ya back  #essentialworkers #maskon #covid_19 •The Hardest Lyrical Street Poet • 
+#corona #coronavirus 🎼🎶🎵#mcdmhiphop #music  #winter #mcdm718 #mcdrastyckmeaxurez 
+MC Drastyck Meaxurez 
+#420 #raw #weed #rap… https://t.co/ygKLOGycTx",0.0,"Watch ya back  #essentialworkers #maskon #covid_19 •The Hardest Lyrical Street Poet • 
+#corona #coronavirus 🎼🎶🎵#mcdmhiphop #music  #winter #mcdm718 #mcdrastyckmeaxurez 
+MC Drastyck Meaxurez 
+#420 #raw #weed #rap… https://t.co/ygKLOGycTx",New York
+95,"Say Whaaaat?? You didnt know I was in a MOVIE??? I co-star with chase_rayder in the sexy action thriller ""Corona Kombat"". I play the role of Trichome, the brave warrior who with his clorox wipes banishes bacteria… https://t.co/sgcgBbDR7E",-0.1153846153846154,"Say Whaaaat?? You didnt know I was in a MOVIE??? I co-star with chase_rayder in the sexy action thriller ""Corona Kombat"". I play the role of Trichome, the brave warrior who with his clorox wipes banishes bacteria… https://t.co/sgcgBbDR7E",Colorado
+96,How much Money will the Corona virus cost the American past time?  https://t.co/UV5icpCqez,-0.06666666666666668,How much Money will the Corona virus cost the American past time?  https://t.co/UV5icpCqez,New York
+97,How much Money will the Corona virus cost the American past time?  https://t.co/i47A6Dlmo4,0.0,How much Money will the Corona virus cost the American past time?  https://t.co/i47A6Dlmo4,New York
+98,"Keep the Joy ❤️🔥 Even in this corona pandemic .
+.
+
+Video Credit: officialgalaxytv
+#officialcuttytv @ Cutty Events Planning &amp; Management LLC https://t.co/UyhdAUGcwq",-0.06666666666666668,"Keep the Joy ❤️🔥 Even in this corona pandemic .
+.
+
+Video Credit: officialgalaxytv
+#officialcuttytv @ Cutty Events Planning &amp; Management LLC https://t.co/UyhdAUGcwq",Maryland
+99,"🇺🇸 US
+
+10 day forecast of 50,164 dead. This wave may last 122 days and see 8,571,536 cases and 120,002 deaths. Cases double every 6.5 days.
+
+❤️ Every Life Counts, Pls #StayAtHome
+
+🏥: https://t.co/an5Q5LWRAu
+📈: https://t.co/c0cjARzST8",0.8,"🇺🇸 US
+
+10 day forecast of 50,164 dead. This wave may last 122 days and see 8,571,536 cases and 120,002 deaths. Cases double every 6.5 days.
+
+❤️ Every Life Counts, Pls #StayAtHome
+
+🏥: https://t.co/an5Q5LWRAu
+📈: https://t.co/c0cjARzST8",Kansas
+100,still missung March Madness #Basketball #NCAA #College #CollegeBasketball #NCAABasketball #KansasJayhawks #Corona @kuhoops @marchmadness ncaa_mens_basketball @ Allen Fieldhouse https://t.co/yIjSjkAMzm,0.5700000000000001,still missung March Madness #Basketball #NCAA #College #CollegeBasketball #NCAABasketball #KansasJayhawks #Corona @kuhoops @marchmadness ncaa_mens_basketball @ Allen Fieldhouse https://t.co/yIjSjkAMzm,Kansas
+101,"Stay Blessed, Stay Positive and More Importantly Stay SAFE! #WordsFromTheDr #Corona @ Indianapolis, Indiana https://t.co/OMp9Qg5ap2",-0.06666666666666668,"Stay Blessed, Stay Positive and More Importantly Stay SAFE! #WordsFromTheDr #Corona @ Indianapolis, Indiana https://t.co/OMp9Qg5ap2",Indiana
+102,"•Hand Sanitizer •
+
+8.2 oz hand sanitizer, 70% Ethyl Alcohol and has Aloe and Vitamin E as moisturizers. https://t.co/X7p0GfHF92
+Will ship directly to you!
+•
+#corona #handsanitizer #covi̇d19 #backinstock… https://t.co/G20Dvk0tTq",-0.125,"•Hand Sanitizer •
+
+8.2 oz hand sanitizer, 70% Ethyl Alcohol and has Aloe and Vitamin E as moisturizers. https://t.co/X7p0GfHF92
+Will ship directly to you!
+•
+#corona #handsanitizer #covi̇d19 #backinstock… https://t.co/G20Dvk0tTq",Pennsylvania
+103,"🇺🇸 US
+
+10 day forecast of 50,164 dead. This wave may last ~140 days and see 11,689,408 cases and 163,652 deaths. Cases double every 6.5 days.
+
+❤️ Every Life Counts, Pls #StayAtHome
+
+🏥: https://t.co/an5Q5LWRAu
+📈: https://t.co/I3HgK1hGAm",0.0,"🇺🇸 US
+
+10 day forecast of 50,164 dead. This wave may last ~140 days and see 11,689,408 cases and 163,652 deaths. Cases double every 6.5 days.
+
+❤️ Every Life Counts, Pls #StayAtHome
+
+🏥: https://t.co/an5Q5LWRAu
+📈: https://t.co/I3HgK1hGAm",Kansas
+104,"It’s been a struggle of epic proportions so Far!!! Wouldn’t you agree??? #covi̇d19 #coronavid19 #corona #lol #willsmith #repost willsmith #lmao #iamlegend #lmfao #lmao😂😂😂 @ Miami, Florida https://t.co/D0SshcR3Lf",-0.06666666666666668,"It’s been a struggle of epic proportions so Far!!! Wouldn’t you agree??? #covi̇d19 #coronavid19 #corona #lol #willsmith #repost willsmith #lmao #iamlegend #lmfao #lmao😂😂😂 @ Miami, Florida https://t.co/D0SshcR3Lf",Florida
+105,Corona NY Mon Apr 13th AM Forecast: TODAY Mostly Cloudy Hi 45 TONIGHT Partly Cloudy Lo 31,-0.03333333333333335,Corona NY Mon Apr 13th AM Forecast: TODAY Mostly Cloudy Hi 45 TONIGHT Partly Cloudy Lo 31,New York
+106,"As you can tell by the picture, happiness is just around the corner, and the corner represents the end of this corona virus shit lol 
+#edm #producer #songwriter #losangeles #hollywood #griffithpark #throwback #sunset… https://t.co/LTK51dYSwb",0.4590625,"As you can tell by the picture, happiness is just around the corner, and the corner represents the end of this corona virus shit lol 
+#edm #producer #songwriter #losangeles #hollywood #griffithpark #throwback #sunset… https://t.co/LTK51dYSwb",California
+107,"Corona At-Home Workout
+Day 31
+Monday, 4/13/2020
+
+* Contact us if you are interested in online personal training designed for YOUR specific goals, limitations and equipment.
+
+3 Rounds SLOW and CONTROLLED of:
+15… https://t.co/kIlsAzYcIz",0.13636363636363635,"Corona At-Home Workout
+Day 31
+Monday, 4/13/2020
+
+* Contact us if you are interested in online personal training designed for YOUR specific goals, limitations and equipment.
+
+3 Rounds SLOW and CONTROLLED of:
+15… https://t.co/kIlsAzYcIz",Texas
+108,"Rise &amp; low key grind!⠀
+⠀
+Its Monday, but where I live, we just had a little tornado come through. SO, yeah! Add that to the Corona Virus Quarantine and its a whole mess!!!! ⠀
+⠀
+But, guess what? I have electricity,… https://t.co/daxEWaX3uc",0.033333333333333326,"Rise &amp; low key grind!⠀
+⠀
+Its Monday, but where I live, we just had a little tornado come through. SO, yeah! Add that to the Corona Virus Quarantine and its a whole mess!!!! ⠀
+⠀
+But, guess what? I have electricity,… https://t.co/daxEWaX3uc",North Carolina
+109,"Can’t catch corona if corona can’t catch you! Probably not true but it sounds fun. APR tuning now on sale for 10% off for all applications(except APR+).
+.
+#apt #aptuning #aptuningallday #serviceandperformance… https://t.co/dx8POUZMKL",0.0,"Can’t catch corona if corona can’t catch you! Probably not true but it sounds fun. APR tuning now on sale for 10% off for all applications(except APR+).
+.
+#apt #aptuning #aptuningallday #serviceandperformance… https://t.co/dx8POUZMKL",Pennsylvania
+110,"CORONA At Quarantine at My Place @ Las Vegas, Nevada https://t.co/w6cCJ0MsGs",-0.06666666666666668,"CORONA At Quarantine at My Place @ Las Vegas, Nevada https://t.co/w6cCJ0MsGs",Nevada
+111,Instacarting Target during Pandemic Bare shelves due to Corona virus Pandemic #anthonyron82 #aldiusa #aldimaldini #aldifinds #aldihaul #aldilove #groceryhaul #grocery #groceryoutlet #shopping #instacartshopper… https://t.co/LhjVrhcnvk,0.0,Instacarting Target during Pandemic Bare shelves due to Corona virus Pandemic #anthonyron82 #aldiusa #aldimaldini #aldifinds #aldihaul #aldilove #groceryhaul #grocery #groceryoutlet #shopping #instacartshopper… https://t.co/LhjVrhcnvk,New York
+112,Do not let corona virus spread around you. We are all doing our part to support this commander-in-chief and move the US forward in health. It makes us prosperous! #Trump2020 #DonaldTrump #VoteDonaldTrump #VDT @ The… https://t.co/p9B7lVZs47,-0.06666666666666668,Do not let corona virus spread around you. We are all doing our part to support this commander-in-chief and move the US forward in health. It makes us prosperous! #Trump2020 #DonaldTrump #VoteDonaldTrump #VDT @ The… https://t.co/p9B7lVZs47,District of Columbia
+113,It’s Monday Time To Get Bk to Getting this Corona Money Make the Best of the life I have I Love All Of You Thank You For All The Likes You Guys Keep Me Goin No Doubt The Hustle Real Love… https://t.co/2SeNblyl8p,-0.06666666666666668,It’s Monday Time To Get Bk to Getting this Corona Money Make the Best of the life I have I Love All Of You Thank You For All The Likes You Guys Keep Me Goin No Doubt The Hustle Real Love… https://t.co/2SeNblyl8p,California
+114,"The CORONA bringing out the TRUTH @ Atlanta, Georgia https://t.co/zYBx7DNr1O",0.0,"The CORONA bringing out the TRUTH @ Atlanta, Georgia https://t.co/zYBx7DNr1O",Georgia
+115,"We on go! Corona go away!!!
+
+Reposted from @cristolmusic 🔥🔥🔥 Country Twerk 🔥🔥🔥 Ft skylerclarkmusic produced by whitegangnitro  Filmed by @midkid6 Join that TikTok movement started natalie__robles mixed n mastered by… https://t.co/6UXkUP00z5",0.0,"We on go! Corona go away!!!
+
+Reposted from @cristolmusic 🔥🔥🔥 Country Twerk 🔥🔥🔥 Ft skylerclarkmusic produced by whitegangnitro  Filmed by @midkid6 Join that TikTok movement started natalie__robles mixed n mastered by… https://t.co/6UXkUP00z5",Florida
+116,"🇺🇸 US
+
+10 day forecast of 50,164 dead. This wave may last ~140 days and see 11,689,408 cases and 163,652 deaths. Cases double every 6.5 days.
+
+❤️ Pls #StayAtHome
+
+🏥: https://t.co/an5Q5LWRAu
+📈: https://t.co/dkyu1njtkT",0.0,"🇺🇸 US
+
+10 day forecast of 50,164 dead. This wave may last ~140 days and see 11,689,408 cases and 163,652 deaths. Cases double every 6.5 days.
+
+❤️ Pls #StayAtHome
+
+🏥: https://t.co/an5Q5LWRAu
+📈: https://t.co/dkyu1njtkT",Kansas
+117,To all you people out there taking this corona virus shit as a joke. I just got the bad news today that my uncle Johnny caught the Corona virus. This goes out to all the people I know not listening &amp; not taking this… https://t.co/zb9lG94HcL,0.12333333333333332,To all you people out there taking this corona virus shit as a joke. I just got the bad news today that my uncle Johnny caught the Corona virus. This goes out to all the people I know not listening &amp; not taking this… https://t.co/zb9lG94HcL,California
+118,"I miss the stage. I miss the laughs.....I miss it all 😢 #ComediansAreNotOk #Corona 🦠 #Quarantine #DreamInBlack #GlowUp #TheButterflyEffect 🐛🦋
+.
+.
+🎭The Lost &amp; Found Podcast is available on Anchor, Apple and Google… https://t.co/js4VBsfxr6",0.0,"I miss the stage. I miss the laughs.....I miss it all 😢 #ComediansAreNotOk #Corona 🦠 #Quarantine #DreamInBlack #GlowUp #TheButterflyEffect 🐛🦋
+.
+.
+🎭The Lost &amp; Found Podcast is available on Anchor, Apple and Google… https://t.co/js4VBsfxr6",Maryland
+119,"Take my internet away 😂
+—
+#diy #coronachallenge #corona #fuckcoviddrinkcorona #upcycle #sweatshirt #croptop @ Las Vegas, Nevada https://t.co/MGcz5Z75C7",-0.30000000000000004,"Take my internet away 😂
+—
+#diy #coronachallenge #corona #fuckcoviddrinkcorona #upcycle #sweatshirt #croptop @ Las Vegas, Nevada https://t.co/MGcz5Z75C7",Nevada
+120,"Home on the range at Morrisey Ranch. Nothin’ like a day in nature to counter the corona blues. #artinthetimeofcorona #ranchlife #westernliving #freshair @ Hornitos, California https://t.co/JbFE9exybJ",0.0,"Home on the range at Morrisey Ranch. Nothin’ like a day in nature to counter the corona blues. #artinthetimeofcorona #ranchlife #westernliving #freshair @ Hornitos, California https://t.co/JbFE9exybJ",California
+121,"Weather today is blah. Starting a myster novel (writing it) and staying off social until I hit my daily goal. If I’m a slacker, you won’t hear from me until August.
+#wwjce #withjeff #corona #socialmediadistancing @… https://t.co/vQ5P1dH4eb",0.0,"Weather today is blah. Starting a myster novel (writing it) and staying off social until I hit my daily goal. If I’m a slacker, you won’t hear from me until August.
+#wwjce #withjeff #corona #socialmediadistancing @… https://t.co/vQ5P1dH4eb",Massachusetts
+122,"Corona Chronicles: Distance hasn’t helped 
+
+Baguette Day!
+
+#MIKEinc #kahnlesrule #feministdad #rawpower #nashville #beprolific #minimalism #modern #sustainability #interiordesign #civilengineering… https://t.co/BBy3voVlU6",0.45,"Corona Chronicles: Distance hasn’t helped 
+
+Baguette Day!
+
+#MIKEinc #kahnlesrule #feministdad #rawpower #nashville #beprolific #minimalism #modern #sustainability #interiordesign #civilengineering… https://t.co/BBy3voVlU6",Tennessee
+123,"Is it 2020 or 1990?! My Honda getting full like old times. The bittersweetness of CORONA and staying home. . . .gas SO low, I couldn't pass it up. . . and can't go anywhere 😒 @ Fort Worth, Texas https://t.co/mufVxdyYGC",0.45,"Is it 2020 or 1990?! My Honda getting full like old times. The bittersweetness of CORONA and staying home. . . .gas SO low, I couldn't pass it up. . . and can't go anywhere 😒 @ Fort Worth, Texas https://t.co/mufVxdyYGC",Texas
+124,Corona CA Mon Apr 13th AM Forecast: TODAY Chance Of Showers Hi 64 TONIGHT Patchy Fog Lo 48,0.0,Corona CA Mon Apr 13th AM Forecast: TODAY Chance Of Showers Hi 64 TONIGHT Patchy Fog Lo 48,California
+125,"Words from my heart to you... 💛🧡💛
+
+#covi̇d19
+#corona
+#coronavid19
+#stayhome
+#stayhealthy
+#staysafe
+#stayhomesavelives
+#savelives
+#flattenthecurve
+#choralmag @ Ann Arbor, Michigan https://t.co/tEVY2ju5qH",0.1875,"Words from my heart to you... 💛🧡💛
+
+#covi̇d19
+#corona
+#coronavid19
+#stayhome
+#stayhealthy
+#staysafe
+#stayhomesavelives
+#savelives
+#flattenthecurve
+#choralmag @ Ann Arbor, Michigan https://t.co/tEVY2ju5qH",Michigan
+126,"COVID-19 Benefits Available - Pennsylvania
+
+#corona #stayhome #unemployment #job #workfromhome #work #tips #advice #law #leave @ Phila https://t.co/iZz1xRgTJM",0.0,"COVID-19 Benefits Available - Pennsylvania
+
+#corona #stayhome #unemployment #job #workfromhome #work #tips #advice #law #leave @ Phila https://t.co/iZz1xRgTJM",Pennsylvania
+127,"Never seen a better picture of government than this. #DoWhatISayNotWhatIDo #TheirRulesDontApply #covi̇d19 #corona @ Yuma, Arizona https://t.co/VixjTb6toW",0.3636363636363637,"Never seen a better picture of government than this. #DoWhatISayNotWhatIDo #TheirRulesDontApply #covi̇d19 #corona @ Yuma, Arizona https://t.co/VixjTb6toW",Arizona
+128,it's important to maintain some type of fitness through this ordeal so me trying to get back into Working out through this Corona pandemic with no gyms around... #healthylifestyle #coronavirus #calasthenics… https://t.co/AVKJjcmwI8,0.125,it's important to maintain some type of fitness through this ordeal so me trying to get back into Working out through this Corona pandemic with no gyms around... #healthylifestyle #coronavirus #calasthenics… https://t.co/AVKJjcmwI8,Virginia
+129,"At 5:04 AM MDT, 15 ESE Corona [Lincoln Co, NM] TRAINED SPOTTER reports SNOW of 3.00 INCH https://t.co/UTlyphgEbn",-0.1,"At 5:04 AM MDT, 15 ESE Corona [Lincoln Co, NM] TRAINED SPOTTER reports SNOW of 3.00 INCH https://t.co/UTlyphgEbn",New Mexico
+130,"At 9:15 AM MDT, 1 W Corona [Lincoln Co, NM] COCORAHS reports SNOW of 2.50 INCH https://t.co/KYjzZnURCu",0.18547619047619046,"At 9:15 AM MDT, 1 W Corona [Lincoln Co, NM] COCORAHS reports SNOW of 2.50 INCH https://t.co/KYjzZnURCu",New Mexico
+131,Just a little gem from the hike yesterday 😂 #liltitsmatter #boobies #tits #hikersofinstagram #hikes #nature #naturephotography #thelittlethings #comedy #breast #october #corona #ct #vernon #bolton #streetart #art… https://t.co/WOU4VnBdPn,-0.06666666666666668,Just a little gem from the hike yesterday 😂 #liltitsmatter #boobies #tits #hikersofinstagram #hikes #nature #naturephotography #thelittlethings #comedy #breast #october #corona #ct #vernon #bolton #streetart #art… https://t.co/WOU4VnBdPn,Connecticut
+132,"Sure it’s just a corona mask but it’s Paisley! And Fun! #coronacrafts @ Memphis, Tennessee https://t.co/o7ODdvzrIV",0.0,"Sure it’s just a corona mask but it’s Paisley! And Fun! #coronacrafts @ Memphis, Tennessee https://t.co/o7ODdvzrIV",Tennessee
+133,Ok I'm really tired of Corona. Enough is enough. It is fuckin 11:45 and another phone call about death due to this shit.  Now my anxiety has finally kicked in!  What the fuck!  Anxiety makes me irritable cranky (more… https://t.co/TrJqepE2Re,0.5,Ok I'm really tired of Corona. Enough is enough. It is fuckin 11:45 and another phone call about death due to this shit.  Now my anxiety has finally kicked in!  What the fuck!  Anxiety makes me irritable cranky (more… https://t.co/TrJqepE2Re,New York
+134,On the way to St. John’s Hospital for our true heroes. The people on the front lines risking their lives to save lives. #essentialworkers #healthcareworkers #frontlineworkers #heroes #corona #covid_19 @ Rockaway… https://t.co/z34NI8Rrln,-0.06666666666666668,On the way to St. John’s Hospital for our true heroes. The people on the front lines risking their lives to save lives. #essentialworkers #healthcareworkers #frontlineworkers #heroes #corona #covid_19 @ Rockaway… https://t.co/z34NI8Rrln,New York
+135,"CORONA GOOD and BAD News! Are we READY to REOPEN the Country? Easter?
+
+WHO DO U listen to? Note: vid is for comedic (?) Purposes only 🤣
+
+#credibility #authority #fake #news #fauci 
+#stayhome #employeerights #hrlaw… https://t.co/a3IHOdyahB",-0.06666666666666668,"CORONA GOOD and BAD News! Are we READY to REOPEN the Country? Easter?
+
+WHO DO U listen to? Note: vid is for comedic (?) Purposes only 🤣
+
+#credibility #authority #fake #news #fauci 
+#stayhome #employeerights #hrlaw… https://t.co/a3IHOdyahB",Pennsylvania
+136,"Join today for 25% off that’s right the next 50 ppl that click the link in my bio that joins can do so for only $7 💋
+
+#kansascity #816 #missouri #corona #twerker #adult #content #atlanta #atl #miami #nyc #la #vegas… https://t.co/vQOwN4LYO6",-0.06666666666666668,"Join today for 25% off that’s right the next 50 ppl that click the link in my bio that joins can do so for only $7 💋
+
+#kansascity #816 #missouri #corona #twerker #adult #content #atlanta #atl #miami #nyc #la #vegas… https://t.co/vQOwN4LYO6",Missouri
+137,"rare glimpses of beauty amid the clouds of covid
+.
+.
+.
+.
+.
+.
+.
+#covid #corona #chicago #spring #oldtownchicago #skyline #architecture #architecturephotography #sunny #sunnyday #iphonography #iphoto #instapic… https://t.co/aOkjmOS4Y8",-0.06666666666666668,"rare glimpses of beauty amid the clouds of covid
+.
+.
+.
+.
+.
+.
+.
+#covid #corona #chicago #spring #oldtownchicago #skyline #architecture #architecturephotography #sunny #sunnyday #iphonography #iphoto #instapic… https://t.co/aOkjmOS4Y8",Illinois
+138,"I came in to work this morning and had a recycled cardboard Corona Wall separating our Work areas. 
+I decided to do a little graffiti on mine and I had a few co-workers sign it.
+#mailmanlife #photographerslife… https://t.co/kFpWU5mkN7",-0.06666666666666668,"I came in to work this morning and had a recycled cardboard Corona Wall separating our Work areas. 
+I decided to do a little graffiti on mine and I had a few co-workers sign it.
+#mailmanlife #photographerslife… https://t.co/kFpWU5mkN7",New Jersey
+139,"There are so many things out of control these times. - Let’s focus on things, we can control. 🎯 👍🏽
+
+#stayathome #stayhealthy #motivation #targets #focus #shotoniphone #seattle #bellevue #covid #quarantine #corona… https://t.co/JYpdosA0U8",0.3,"There are so many things out of control these times. - Let’s focus on things, we can control. 🎯 👍🏽
+
+#stayathome #stayhealthy #motivation #targets #focus #shotoniphone #seattle #bellevue #covid #quarantine #corona… https://t.co/JYpdosA0U8",Washington
+140,"I never call anybody back. Proudly social distancing and screening phone calls since 1968😂 #socialdistance #socialdistancing #corona @ Midlothian, Illinois https://t.co/CAT9dtdsyU",0.5,"I never call anybody back. Proudly social distancing and screening phone calls since 1968😂 #socialdistance #socialdistancing #corona @ Midlothian, Illinois https://t.co/CAT9dtdsyU",Illinois
+141,"Laundry in the time of corona
+
+#laundry #laundryday #mirror #selfie #mask #gloves #socialdistancing #ppe #coronavirus #covid19 #pandemic #pandemiclife #Monday #mondaymood #massachusettsphotographer #ignewengland… https://t.co/s9cv01abte",-0.1328703703703704,"Laundry in the time of corona
+
+#laundry #laundryday #mirror #selfie #mask #gloves #socialdistancing #ppe #coronavirus #covid19 #pandemic #pandemiclife #Monday #mondaymood #massachusettsphotographer #ignewengland… https://t.co/s9cv01abte",Massachusetts
+142,"“BY ALL MEANS NECESSARY” @BOOSIEOFFICIAL
+
+That’s right, The Legend Boosie Bad Ass is LiVe on The Kenny Burns Show today at 3PM 😳
+
+This Man been on Fire on his Live all Corona long and Controversial as EVER.
+
+New… https://t.co/Q9zfyvIRkH",-0.06666666666666668,"“BY ALL MEANS NECESSARY” @BOOSIEOFFICIAL
+
+That’s right, The Legend Boosie Bad Ass is LiVe on The Kenny Burns Show today at 3PM 😳
+
+This Man been on Fire on his Live all Corona long and Controversial as EVER.
+
+New… https://t.co/Q9zfyvIRkH",Georgia
+143,"Proudly screening phone calls and ducking people #socialdistancing since 1968.😂 #corona @ Midlothian, Illinois https://t.co/vyHSRdgW4Q",0.016666666666666666,"Proudly screening phone calls and ducking people #socialdistancing since 1968.😂 #corona @ Midlothian, Illinois https://t.co/vyHSRdgW4Q",Illinois
+144,"Let's take this time to work towards our goal. Volunteer from home to call, text, post for your candidate. #vote help post to get people to register online. #registertovote #voteblue2020 #socialdistancing #corona… https://t.co/htCwVb95eH",0.06185064935064938,"Let's take this time to work towards our goal. Volunteer from home to call, text, post for your candidate. #vote help post to get people to register online. #registertovote #voteblue2020 #socialdistancing #corona… https://t.co/htCwVb95eH",Illinois
+145,"Well, Hurricane corona has has now officially hit Northern Westchester! This little doozy came down my back patio. My wife and I had to pull it down before it hit the rest of the house. Not too big, but big enough to… https://t.co/vTU90dI8y1",0.8,"Well, Hurricane corona has has now officially hit Northern Westchester! This little doozy came down my back patio. My wife and I had to pull it down before it hit the rest of the house. Not too big, but big enough to… https://t.co/vTU90dI8y1",New York
+146,Invading my safe space!! This guy didn’t get the #memo   Never know who’ll you see on the #water with #RTFC #reeltightfishingcharters #manatee #shmanatee #yamaha #corona #siestakey #sarasota #sarasota_florida… https://t.co/CBCp76INIS,0.0,Invading my safe space!! This guy didn’t get the #memo   Never know who’ll you see on the #water with #RTFC #reeltightfishingcharters #manatee #shmanatee #yamaha #corona #siestakey #sarasota #sarasota_florida… https://t.co/CBCp76INIS,Florida
+147,"🇺🇸 US
+
+10 day forecast of 50,164 dead. This wave may last ~140 days and see 11,689,408 cases and 163,652 deaths. Cases double every 6.5 days.
+
+❤️ Pls #StayAtHome
+
+🏥: https://t.co/an5Q5LWRAu
+📈: https://t.co/dkyu1njtkT",-0.07123015873015873,"🇺🇸 US
+
+10 day forecast of 50,164 dead. This wave may last ~140 days and see 11,689,408 cases and 163,652 deaths. Cases double every 6.5 days.
+
+❤️ Pls #StayAtHome
+
+🏥: https://t.co/an5Q5LWRAu
+📈: https://t.co/dkyu1njtkT",Kansas
+148,My Corona Cocktail: Shut up and just suck the air from between the flakes if you’re that concerned about carbs: like me: transparent as a stick of gum made of nothing but air. No smoke or mirrors: for real.… https://t.co/3OsUfxitm0,0.0,My Corona Cocktail: Shut up and just suck the air from between the flakes if you’re that concerned about carbs: like me: transparent as a stick of gum made of nothing but air. No smoke or mirrors: for real.… https://t.co/3OsUfxitm0,New York
+149,"Miss being able to work/write in this environment... 😕 #socialdistancing 
+.
+.
+#soonerthanlater #corona #covid_19 #pandemic #workfromhome #workingmom #authorslife #writerlife #mylife #reallife #readersofinstagram… https://t.co/ployxP9xbZ",0.0,"Miss being able to work/write in this environment... 😕 #socialdistancing 
+.
+.
+#soonerthanlater #corona #covid_19 #pandemic #workfromhome #workingmom #authorslife #writerlife #mylife #reallife #readersofinstagram… https://t.co/ployxP9xbZ",New Hampshire
+150,"It’s hard to get the whole picture of the mortgage markets with this Corona virus ordeal.
+.
+Join us tomorrow on our FB Page at 10am CST for a LIVE episode of MMG as we discuss further details of mortgage… https://t.co/xU8zlPVoMf",-0.2285714285714285,"It’s hard to get the whole picture of the mortgage markets with this Corona virus ordeal.
+.
+Join us tomorrow on our FB Page at 10am CST for a LIVE episode of MMG as we discuss further details of mortgage… https://t.co/xU8zlPVoMf",Texas
+151,"Thank you to everyone @AAMCNews for what you are doing in the fight against Corona virus. We love our fans and the community, thank you for taking care of all the great people in the area. We look forward to… https://t.co/EmU9eqUyNe",0.2,"Thank you to everyone @AAMCNews for what you are doing in the fight against Corona virus. We love our fans and the community, thank you for taking care of all the great people in the area. We look forward to… https://t.co/EmU9eqUyNe",Maryland
+152,"Corona life 😷😷😷😷 @ Longwood, Florida https://t.co/SSLhHkbcEp",0.05170454545454545,"Corona life 😷😷😷😷 @ Longwood, Florida https://t.co/SSLhHkbcEp",Florida
+153,"I feel like a Doctor of Real Estate 😷
+#luxury #malibu #property #sell #beach #house #work #corona #covid #19 #family #show #surf #ocean #instagood #real #fun #instagram #summer #is #comingsoon @ Luxury Malibu Property https://t.co/tXImFRkdMs",0.01117424242424242,"I feel like a Doctor of Real Estate 😷
+#luxury #malibu #property #sell #beach #house #work #corona #covid #19 #family #show #surf #ocean #instagood #real #fun #instagram #summer #is #comingsoon @ Luxury Malibu Property https://t.co/tXImFRkdMs",California
+154,Positive Vibes Inspirational Messages and Love 💕 #iparkmusic I performs acts of random kindness Music Company 🎶 #thankshealthheroes #love #positiveenergy #positivity #corona #coronavirus #quarantine @ IPARK MUSIC CO. https://t.co/UyHXE1LQ2S,0.0,Positive Vibes Inspirational Messages and Love 💕 #iparkmusic I performs acts of random kindness Music Company 🎶 #thankshealthheroes #love #positiveenergy #positivity #corona #coronavirus #quarantine @ IPARK MUSIC CO. https://t.co/UyHXE1LQ2S,California
+155,"Today, It is another day. When gets tough, only give 24 hours to be sorry for myself. Back in the saddle.
+
+'' Keep Ya Head Up'' ( Tupak ) Apollo Theater Harlem, NYC.  Corona Virus Series '' Social Distance ''… https://t.co/h0jIxfhIl2",0.8,"Today, It is another day. When gets tough, only give 24 hours to be sorry for myself. Back in the saddle.
+
+'' Keep Ya Head Up'' ( Tupak ) Apollo Theater Harlem, NYC.  Corona Virus Series '' Social Distance ''… https://t.co/h0jIxfhIl2",New York
+156,"You’ve been locked down too long when you start seeing the Corona Virus in your dogs squeaky toys. @ Hobe Sound, Florida https://t.co/DPQTa1HDsr",0.0,"You’ve been locked down too long when you start seeing the Corona Virus in your dogs squeaky toys. @ Hobe Sound, Florida https://t.co/DPQTa1HDsr",Florida
+157,#nyc #queens #thankful #hour every night at 7pm #godfirst #godbless #essential #workers #thankyou #john #15:5 ❤️🙏🏼 #corona #stayhome #staystrong #staypositive #timothy #1:7 #covid #shelter #inplace #wear #mask… https://t.co/UODBVdq6I2,0.625,#nyc #queens #thankful #hour every night at 7pm #godfirst #godbless #essential #workers #thankyou #john #15:5 ❤️🙏🏼 #corona #stayhome #staystrong #staypositive #timothy #1:7 #covid #shelter #inplace #wear #mask… https://t.co/UODBVdq6I2,New York
+158,I love getting feedback from Coco on my last liveshot or show.   She seems to always approve. #corona #workathome #dogs #dogsofinstagram @ Washington D.C. https://t.co/OYgf6QOL0A,0.06481481481481481,I love getting feedback from Coco on my last liveshot or show.   She seems to always approve. #corona #workathome #dogs #dogsofinstagram @ Washington D.C. https://t.co/OYgf6QOL0A,District of Columbia
+159,One of the things that Corona has interrupted is the KYOSA grant that the SCMS Grizzlies Beyond the Bell Maker Club received to start this semester. I'm happy to report that we have been… https://t.co/Q29hUAY7PU,0.06818181818181818,One of the things that Corona has interrupted is the KYOSA grant that the SCMS Grizzlies Beyond the Bell Maker Club received to start this semester. I'm happy to report that we have been… https://t.co/Q29hUAY7PU,Kentucky
+160,"Monday market update for Corona Del Mar, California 92625
 
 1
 NEW 
@@ -101,311 +650,23 @@ DOM
 •
 
 Did you know?
-With the median home price of $3,097,450 in your market, you could… https://t.co/4nHgcgrrJT",California,5,California,23931
-39,"Corona 2020, Spanish Flu 1920, Cholera 1820, Bubonic Plague in 1720 🤔 Population Control Every 100 Years 🤔#CoincidenceOrPattern #coincidenceithinknot 🤔 @ Lows' Kitchen https://t.co/iybmsy2Dxj",North Carolina,37,North Carolina,4886
-40,ONE NATION UNDER A GROOVE #STAYINGHOME FOR THE FUNK OF IT #ALONETOGETHER due Da #corona #covid_19 @ North Carolina https://t.co/oBQIb3xMKU,North Carolina,37,North Carolina,4886
-41,Grilling it up before the weather gets rough. - Drinking a Corona Premier by @GrupoModelo_MX @ Halligan Bar South  — https://t.co/tnBU2l5Q5G,North Carolina,37,North Carolina,4886
-42,"Rise &amp; low key grind!⠀
-⠀
-Its Monday, but where I live, we just had a little tornado come through. SO, yeah! Add that to the Corona Virus Quarantine and its a whole mess!!!! ⠀
-⠀
-But, guess what? I have electricity,… https://t.co/daxEWaX3uc",North Carolina,37,North Carolina,4886
-43,ONE NATION UNDER A GROOVE #stayinghome FOR THE FUNK OF IT #alonetogether  #onenation #corona @ Pennsylvania https://t.co/jFD9YjHxho,Pennsylvania,43,Pennsylvania,24292
-44,ONE NATION UNDER A GROOVE #STAYINGHOME FOR THE FUNK OF IT #ALONETOGETHER due Da #corona #covid_19 @ Pennsylvania https://t.co/USpxADYeL4,Pennsylvania,43,Pennsylvania,24292
-45,"The 4yr old fetched me a beer. It's a good day. I'll remember it forever. Happy Easter. 
+With the median home price of $3,097,450 in your market, you could… https://t.co/4nHgcgrrJT",0.0,"Monday market update for Corona Del Mar, California 92625
 
-#Easter2020 #VictoriasWay #Corona #Quarantine @ Badstreet, Philadelphia, Pa https://t.co/8KoHaoNix9",Pennsylvania,43,Pennsylvania,24292
-46,Shop this and more tomorrow at NOON Monday 4/13. Limited quantities on the Vintage Camo Jackets. Retail $98 plus FREE SHIPPING. ✨shine on ✨ #shineon #sparkleoutloud #supportsmallbusiness #shopsmall #corona… https://t.co/EU6CPfUL08,Pennsylvania,43,Pennsylvania,24292
-47,"•Hand Sanitizer •
-
-8.2 oz hand sanitizer, 70% Ethyl Alcohol and has Aloe and Vitamin E as moisturizers. https://t.co/X7p0GfHF92
-Will ship directly to you!
+1
+NEW 
+LISTINGS
+70
+TOTAL 
+LISTINGS
+3.1M
+MEDIAN
+PRICE ($)
+81
+MEDIAN
+DOM
 •
-#corona #handsanitizer #covi̇d19 #backinstock… https://t.co/G20Dvk0tTq",Pennsylvania,43,Pennsylvania,24292
-48,"Can’t catch corona if corona can’t catch you! Probably not true but it sounds fun. APR tuning now on sale for 10% off for all applications(except APR+).
-.
-#apt #aptuning #aptuningallday #serviceandperformance… https://t.co/dx8POUZMKL",Pennsylvania,43,Pennsylvania,24292
-49,"COVID-19 Benefits Available - Pennsylvania
 
-#corona #stayhome #unemployment #job #workfromhome #work #tips #advice #law #leave @ Phila https://t.co/iZz1xRgTJM",Pennsylvania,43,Pennsylvania,24292
-50,"CORONA GOOD and BAD News! Are we READY to REOPEN the Country? Easter?
-
-WHO DO U listen to? Note: vid is for comedic (?) Purposes only 🤣
-
-#credibility #authority #fake #news #fauci 
-#stayhome #employeerights #hrlaw… https://t.co/a3IHOdyahB",Pennsylvania,43,Pennsylvania,24292
-51,"Corona Virus won’t stop me from speaking and encouraging the Body of Christ. 
-
-I have all of the In’s and Out’s to host your “Motivating Your Circle Event”. Does your circle need a recharge from someone new? I have… https://t.co/BncYsZmKRR",Tennessee,48,Tennessee,5610
-52,"Corona Virus won’t stop me from speaking and encouraging the Body of Christ. 
-
-I have all of the In’s and Out’s to host your “Motivating Your Circle Event”. Does your circle need a recharge from someone new? I have… https://t.co/qydc8Eivc5",Tennessee,48,Tennessee,5610
-53,"Hell yeah‼️‼️‼️I been looking high &amp; low. Yet not a roll to be found 🤦🏽‍♀️💅🏽😭
-Ijs‼️ Can y’all please stop buying up ALL the damn tissue? Geesh‼️‼️‼️
-#coronamemes #tissue #charmin #melaninpoppin #corona #coronavid19… https://t.co/pJhQxi0l4Y",Tennessee,48,Tennessee,5610
-54,WHICH PROFITSTYLE YALL FUKKIN WITH ON THE EP?????? 1 2 3 4 5 Or 6 LEAVE COMMENTS. IF U AINT HEARD IT YET LINK IN BIO AND ITS AVAILABLE EVERYWHERE.......  #corona #profitg #viral #explore #unsigned #indie #major… https://t.co/7LJkgfq077,Tennessee,48,Tennessee,5610
-55,"#LiveStreamMusic FrankB attempting a show, corona https://t.co/TxsLh9zctE #Rock #Folk",Tennessee,48,Tennessee,5610
-56,Easter 2020. One that will live forever in our memories. At least the Easter Bunny could make his appointed rounds. #Quarantine #Easter #Easter2020 #Corona #QuarantineEaster #HeIsRisen #HeIsRisenIndeed #EasterBasket… https://t.co/wcSciypLXn,Tennessee,48,Tennessee,5610
-57,"#corona #djtsalt #djtsaltt #tiktokdance @ Memphis, Tennessee https://t.co/IVCR41rhTA",Tennessee,48,Tennessee,5610
-58,"Corona Chronicles: Distance hasn’t helped 
-
-Baguette Day!
-
-#MIKEinc #kahnlesrule #feministdad #rawpower #nashville #beprolific #minimalism #modern #sustainability #interiordesign #civilengineering… https://t.co/BBy3voVlU6",Tennessee,48,Tennessee,5610
-59,"Sure it’s just a corona mask but it’s Paisley! And Fun! #coronacrafts @ Memphis, Tennessee https://t.co/o7ODdvzrIV",Tennessee,48,Tennessee,5610
-60,"A little Easter fun this morning with the boys.
-
-#easter #easteregghunt #confetti @ Corona de Tucson, Arizona https://t.co/kObEXHNX6B",Arizona,3,Arizona,3705
-61,Tucson corona holidazapocalypse proper @ Robles Pass https://t.co/yDzFIZlb4L,Arizona,3,Arizona,3705
-62,"Never seen a better picture of government than this. #DoWhatISayNotWhatIDo #TheirRulesDontApply #covi̇d19 #corona @ Yuma, Arizona https://t.co/VixjTb6toW",Arizona,3,Arizona,3705
-63,"Follow @DaddyDaughterTi for #DailyFunnies
-👆🏾ClickFollow &amp;/or a “😂”👆🏾 
-.
-#imagine #imagination #imagines #imaginaryfriend #imaginaryfriends 
-.
-Upcoming Shows:
--They are normally posted here but #TheRona #aka #Corona… https://t.co/Msjja17QTn",Massachusetts,25,Massachusetts,26867
-64,🏠 RT @Fresssed: Yo corona I’m telling you right now there’s no way I’m staying inside when it’s July/August and 80 degrees I’m sorry,Massachusetts,25,Massachusetts,26867
-65,"Weather today is blah. Starting a myster novel (writing it) and staying off social until I hit my daily goal. If I’m a slacker, you won’t hear from me until August.
-#wwjce #withjeff #corona #socialmediadistancing @… https://t.co/vQ5P1dH4eb",Massachusetts,25,Massachusetts,26867
-66,"Laundry in the time of corona
-
-#laundry #laundryday #mirror #selfie #mask #gloves #socialdistancing #ppe #coronavirus #covid19 #pandemic #pandemiclife #Monday #mondaymood #massachusettsphotographer #ignewengland… https://t.co/s9cv01abte",Massachusetts,25,Massachusetts,26867
-67,"Luna’s 🌙 1st Easter 🐣and Resurrection ✝️Sunday. Nothing can stop her praise 🙌🏽 not even Corona!
-.
-.
-.
-SWIPE👉🏽 For more bunny hopping cuteness.
-.
-.
-#heisrisen
-#theblessedlife
-#ressurectionsunday… https://t.co/D5Tw5uUMrU",Connecticut,7,Connecticut,13381
-68,Just a little gem from the hike yesterday 😂 #liltitsmatter #boobies #tits #hikersofinstagram #hikes #nature #naturephotography #thelittlethings #comedy #breast #october #corona #ct #vernon #bolton #streetart #art… https://t.co/WOU4VnBdPn,Connecticut,7,Connecticut,13381
-69,"God blessed me &amp; hopefully this contributes to your health journey. No worries but I am virus paranoid about 13,000+ people dying around me in the US. #Corona #Immune #Health #Mindfullness #AntiVirus #Bodyhealth… https://t.co/eNPuUsx14Q",Georgia,12,Georgia,13315
-70,Sandal Sale! Don’t track in what should be left outside! Especially now! #corona #covid19 #vampirediaries #originals #legacies available in our online store! @ Vampire Stalkers/Mystic Falls Tours https://t.co/EjDhJ6PGb8,Georgia,12,Georgia,13315
-71,"Talking to the hand because it is always good to be around someone you know you can trust for real. #wilson #corona #castaway #tomhanks #solo #trust #conversation @ Atlanta, Georgia https://t.co/ArpyI1xqN6",Georgia,12,Georgia,13315
-72,"My very creative 😉 active 🤸🏽‍♂️youngest granddaughter, @adabneyy , has had it with 2020! So much so that she has a new name for COVID-19: Corona LaShay DaVirus! 😏💛 @ Atlanta, Georgia https://t.co/t6b8pVMlTW",Georgia,12,Georgia,13315
-73,"The CORONA bringing out the TRUTH @ Atlanta, Georgia https://t.co/zYBx7DNr1O",Georgia,12,Georgia,13315
-74,"“BY ALL MEANS NECESSARY” @BOOSIEOFFICIAL
-
-That’s right, The Legend Boosie Bad Ass is LiVe on The Kenny Burns Show today at 3PM 😳
-
-This Man been on Fire on his Live all Corona long and Controversial as EVER.
-
-New… https://t.co/Q9zfyvIRkH",Georgia,12,Georgia,13315
-75,"The pigeons and the cops are the only ones roaming free the streets of New York City.
-.
-.
-.
-#pigeons #nypd #nycpolice #timessquare #timessquarenyc #coronavirus #corona #virus #isolation #COVID19 #emptystreets… https://t.co/JCkH7R6zk0",New York,36,New York,195749
-76,Fresh Air in the Park #artmuseum #corona #art #covid_19 #outside #staysafe @ Nassau County Museum of Art https://t.co/ZHCZTN3GyD,New York,36,New York,195749
-77,"While visiting USP Alcatraz I bought a harmonica not knowing that it will entertain my son so much... #keepingHimBusy #USPAlcatraz #harmonica @ Corona, New York https://t.co/bIy2CrRCLb",New York,36,New York,195749
-78,"Four mile #EasterSunday run through #JacksonHeights, #Elmhurst and #Corona.  #keeprunning #covid19 lgbtqiarunners #instagay #gayrunner #gayrunners #gayathletes #gayfitness #gayfit #lgbtqrunners #lgbtqrunner… https://t.co/Vfeynx5cJ9",New York,36,New York,195749
-79,Corona NY Sun Apr 12th PM Forecast: TONIGHT Partly Cloudy Lo 31 SATURDAY Sunny Hi 41,New York,36,New York,195749
-80,“i told u to stop playin wit me!”🔫 😂 #FuckCorona #FuckCovid19 #Outside #StayAtHome #Corona #CoronaVirus #Queens #NewYork #Covid_19 #Knight #Caption #StopPlayin #Findiddy #FindiddyDaDon #SleezyFinBeezly #EwokHefner… https://t.co/rhUNbacK4M,New York,36,New York,195749
-81,"This whole corona thing has only added more fuel ⛽️ to my fire 🔥 Making that chip on my shoulder just a little bit bigger! 💪🏼 Puttin’ in the work on this speed bag, I’m just getting started! 🥊 #RightHere #RightNow… https://t.co/EShKGGtgFP",New York,36,New York,195749
-82,"Nobody can say for sure exactly what our return to normalcy will look like, or how long it will take to get there.
-.
-.
-.
-#brooklynbridge #brooklynbridgepark #coronavirus #corona #virus #isolation #COVID19… https://t.co/vLDdpky9lZ",New York,36,New York,195749
-83,"“Spring unlocks the flowers to paint the laughing soil.”
-— Bishop Reginald Heber @EmpireStreetSty https://t.co/vUmegbG15J 💐💐
-meetshannonlee @ Flushing Meadows - Corona Park https://t.co/MNxX2z9hgu",New York,36,New York,195749
-84,"Can somebody pretty please bring my baby back cause corona virus is taking all my time away from her. I lovenu #shilohgrace with every part of my heart and soul!
-.
-.
-.
-#telos🌎 #telopaththtv #realyaadmantv #reggae… https://t.co/RXR9KPO0Pu",New York,36,New York,195749
-85,"This whole Corona Crisis got me really really stress and exhausted. Praying this whole thing ends soon.
-.
-.
-.
-#love #frontliners #photooftheday #me #instamood #cute #igers #picoftheday #nurselife #guy #beautiful… https://t.co/8LOoDRKKxI",New York,36,New York,195749
-86,"Goodbye 21! Wow! Happy 22nd Birthday Ryan!!!! #coronabeer lunch at home. Best we can do because of #corona ....still delivering delicious food (is dessert actually food?) in Manhattan! Love you! @ Manhattan, New York https://t.co/hW85ZxmLyL",New York,36,New York,195749
-87,"Watch ya back  #essentialworkers #maskon #covid_19 •The Hardest Lyrical Street Poet • 
-#corona #coronavirus 🎼🎶🎵#mcdmhiphop #music  #winter #mcdm718 #mcdrastyckmeaxurez 
-MC Drastyck Meaxurez 
-#420 #raw #weed #rap… https://t.co/ygKLOGycTx",New York,36,New York,195749
-88,How much Money will the Corona virus cost the American past time?  https://t.co/UV5icpCqez,New York,36,New York,195749
-89,How much Money will the Corona virus cost the American past time?  https://t.co/i47A6Dlmo4,New York,36,New York,195749
-90,Corona NY Mon Apr 13th AM Forecast: TODAY Mostly Cloudy Hi 45 TONIGHT Partly Cloudy Lo 31,New York,36,New York,195749
-91,Instacarting Target during Pandemic Bare shelves due to Corona virus Pandemic #anthonyron82 #aldiusa #aldimaldini #aldifinds #aldihaul #aldilove #groceryhaul #grocery #groceryoutlet #shopping #instacartshopper… https://t.co/LhjVrhcnvk,New York,36,New York,195749
-92,Ok I'm really tired of Corona. Enough is enough. It is fuckin 11:45 and another phone call about death due to this shit.  Now my anxiety has finally kicked in!  What the fuck!  Anxiety makes me irritable cranky (more… https://t.co/TrJqepE2Re,New York,36,New York,195749
-93,On the way to St. John’s Hospital for our true heroes. The people on the front lines risking their lives to save lives. #essentialworkers #healthcareworkers #frontlineworkers #heroes #corona #covid_19 @ Rockaway… https://t.co/z34NI8Rrln,New York,36,New York,195749
-94,"Well, Hurricane corona has has now officially hit Northern Westchester! This little doozy came down my back patio. My wife and I had to pull it down before it hit the rest of the house. Not too big, but big enough to… https://t.co/vTU90dI8y1",New York,36,New York,195749
-95,My Corona Cocktail: Shut up and just suck the air from between the flakes if you’re that concerned about carbs: like me: transparent as a stick of gum made of nothing but air. No smoke or mirrors: for real.… https://t.co/3OsUfxitm0,New York,36,New York,195749
-96,"Today, It is another day. When gets tough, only give 24 hours to be sorry for myself. Back in the saddle.
-
-'' Keep Ya Head Up'' ( Tupak ) Apollo Theater Harlem, NYC.  Corona Virus Series '' Social Distance ''… https://t.co/h0jIxfhIl2",New York,36,New York,195749
-97,#nyc #queens #thankful #hour every night at 7pm #godfirst #godbless #essential #workers #thankyou #john #15:5 ❤️🙏🏼 #corona #stayhome #staystrong #staypositive #timothy #1:7 #covid #shelter #inplace #wear #mask… https://t.co/UODBVdq6I2,New York,36,New York,195749
-98,Happy Easter!  Our Redeemer Lives. #easter #easterdecor #easterathome #corona #prospecthillinn #quarantinelife #tablescapechallenge @ Prospect Hill Inn &amp; Restaurant https://t.co/INKrVKd4Iq,Virginia,53,Virginia,5747
-99,it's important to maintain some type of fitness through this ordeal so me trying to get back into Working out through this Corona pandemic with no gyms around... #healthylifestyle #coronavirus #calasthenics… https://t.co/AVKJjcmwI8,Virginia,53,Virginia,5747
-100,"Current situation: Mason is 100% over my excessive corona dog walks (as are the non-fur children)...currently still on the side of the road.  Send a tent? 🤦🏻‍♀️🐶🤪 @ Summit, New Jersey https://t.co/JQCDPKquvT",New Jersey,34,New Jersey,64584
-101,Mr. Mark’s private tap lesson is looking and sounding amazing🤪🤪 Even a video to prove!!🤩🤯🤯 #tap #lesson #private #class #look #sound #amazing #video #stayhome #stayhealthy #staysafe #corona #covid19 #explorepage… https://t.co/Hdm4SnCs0B,New Jersey,34,New Jersey,64584
-102,Corona Out Every Where 🧑🏾‍🔬😷😈🤟🏾 @ Area 51 https://t.co/zg2CpqaOdv,New Jersey,34,New Jersey,64584
-103,"What many people are feeling during this Quarantine‼️ 🎼🎶🎤🎹#DazzlingDanette #PerformerLife #AEA #CovidCut #Corona #ThanksToHealthCareAndEssentialWorkers #HealingPowerOfMusic @ Jersey City, New Jersey https://t.co/CKzJIw31l1",New Jersey,34,New Jersey,64584
-104,"I came in to work this morning and had a recycled cardboard Corona Wall separating our Work areas. 
-I decided to do a little graffiti on mine and I had a few co-workers sign it.
-#mailmanlife #photographerslife… https://t.co/kFpWU5mkN7",New Jersey,34,New Jersey,64584
-105,"@vinnie_orcel eat your heart out!!  Who’s jealous? #eastersunday #family #daughtertime #dadlife #lovemyfamily #quarantine #corona #covid @ Cranston, Rhode Island https://t.co/3iHthTCvrP",Rhode Island,45,Rhode Island,2665
-106,"Celebrating Easter Corona Virus style @ Lakeview East, Chicago https://t.co/pAyaMFZZM9",Illinois,17,Illinois,22025
-107,"Jesus, stay inside! Social distancing means everyone! #easter #corona #covi̇d19 #repost #socialdistancing @ Midlothian, Illinois https://t.co/z9yDxaIGAY",Illinois,17,Illinois,22025
-108,"rare glimpses of beauty amid the clouds of covid
-.
-.
-.
-.
-.
-.
-.
-#covid #corona #chicago #spring #oldtownchicago #skyline #architecture #architecturephotography #sunny #sunnyday #iphonography #iphoto #instapic… https://t.co/aOkjmOS4Y8",Illinois,17,Illinois,22025
-109,"I never call anybody back. Proudly social distancing and screening phone calls since 1968😂 #socialdistance #socialdistancing #corona @ Midlothian, Illinois https://t.co/CAT9dtdsyU",Illinois,17,Illinois,22025
-110,"Proudly screening phone calls and ducking people #socialdistancing since 1968.😂 #corona @ Midlothian, Illinois https://t.co/vyHSRdgW4Q",Illinois,17,Illinois,22025
-111,"Let's take this time to work towards our goal. Volunteer from home to call, text, post for your candidate. #vote help post to get people to register online. #registertovote #voteblue2020 #socialdistancing #corona… https://t.co/htCwVb95eH",Illinois,17,Illinois,22025
-112,"We sure are missing baseball, thank you to Firelands Athletic Boosters .... #seniors2020 #baseball #corona #nothowthiswassupposedtogo @ Firelands High School https://t.co/wWomXhV7IP",Ohio,40,Ohio,6975
-113,He is Risen! Risen indeed. We’ve already gotten through this!  #covıd19 #corona #churchstreeteast #downtownmobile #mobilealabama #downtownmobileal #ukulele #ukulelecover #ukulelecovers #banjolele #banjolelecover… https://t.co/LsyTFCp34v,Alabama,0,Alabama,3734
-114,Me and My Sexy Baes Took A Trip To The Beach BEFORE Corona Took Over Our Lives. 💦 🏝 🏖🧜🏾‍♀️ 🧜🏾‍♀️ 🧜🏾‍♀️ 🌺🌴🌈☀️ @ WonderWorks Myrtle Beach https://t.co/MgqUoMroMX,South Carolina,46,South Carolina,3391
-115,"“I got my shooters about to renovate the room” 
-New music!!
-Just dropped!!! 
-#SoundCloud 
-#adoeverse #adoe #ghe #zuut #reapa #broward #control #miami #florida #new #explore #corona #chicago #nbayoungboy… https://t.co/w9mVkM9J3R",Florida,11,Florida,21019
-116,"Easter 2020
-Mahi, tuna, brussel sprouts ... and wine, not Corona @ Parkland, Florida https://t.co/ITkcAo1deJ",Florida,11,Florida,21019
-117,Happy Easter from the Amicone’s! Knowing I get to be with these guys forever makes it much easier to be away from them during all this corona madness. Still miss and love you guys!… https://t.co/hmqgWRCpmy,Florida,11,Florida,21019
-118,"Don’t forget to stay clean and safe!! #dbz #clean #corona #virus #covid #dragonballz @ Sarasota, Florida https://t.co/Wemp93OFiM",Florida,11,Florida,21019
-119,"It’s been a struggle of epic proportions so Far!!! Wouldn’t you agree??? #covi̇d19 #coronavid19 #corona #lol #willsmith #repost willsmith #lmao #iamlegend #lmfao #lmao😂😂😂 @ Miami, Florida https://t.co/D0SshcR3Lf",Florida,11,Florida,21019
-120,"We on go! Corona go away!!!
-
-Reposted from @cristolmusic 🔥🔥🔥 Country Twerk 🔥🔥🔥 Ft skylerclarkmusic produced by whitegangnitro  Filmed by @midkid6 Join that TikTok movement started natalie__robles mixed n mastered by… https://t.co/6UXkUP00z5",Florida,11,Florida,21019
-121,Invading my safe space!! This guy didn’t get the #memo   Never know who’ll you see on the #water with #RTFC #reeltightfishingcharters #manatee #shmanatee #yamaha #corona #siestakey #sarasota #sarasota_florida… https://t.co/CBCp76INIS,Florida,11,Florida,21019
-122,"Corona life 😷😷😷😷 @ Longwood, Florida https://t.co/SSLhHkbcEp",Florida,11,Florida,21019
-123,"You’ve been locked down too long when you start seeing the Corona Virus in your dogs squeaky toys. @ Hobe Sound, Florida https://t.co/DPQTa1HDsr",Florida,11,Florida,21019
-124,"Another episode of expectation vs. reality. My mom ordered TP back on March 18th &amp; we really didn’t expect it until May (because, ya know, #corona ) daily_laugh_official #wtf #thanksforthelaughs #ToiletPaperFail… https://t.co/jEtZmMi2Wv",Florida,11,Florida,21019
-125,"Corona doesn’t stand a chance against Easter....
-#easterdinner  #easter2020 #posole  #texasismystate @ Austin, Texas https://t.co/H6TV33ePX5",Texas,49,Texas,14275
-126,Corona 28 - Another great week! Let’s see those videos!#hippoquaranteams @ CrossFit Hippo https://t.co/Hgs4KezP3h,Texas,49,Texas,14275
-127,"#Repost scout_barthold
-・・・
-Doing my best to keep the Rona away. PPE = Papillon Protective Equipment  #facemask #covid19 #corona #PPE
-.
-.
-.
-.
-.
-#papillon #papillons #papillonLove #papillonsofInstagram #papillonDog… https://t.co/j6cam8Qx01",Texas,49,Texas,14275
-128,"This #Corona fina get beat! #Piñata @ Austin, Texas https://t.co/6HQLlt9PJc",Texas,49,Texas,14275
-129,"CoronaRessurection
-#stayhome #homesweethome #lockdown #staycation #corona #covid @ The Holy Land https://t.co/XQrSjieGNu",Texas,49,Texas,14275
-130,"#april2020 #stayhome #corona #covid19 @ Texana Plantation, Richmond https://t.co/ptekQz5oNQ",Texas,49,Texas,14275
-131,"Corona At-Home Workout
-Day 31
-Monday, 4/13/2020
-
-* Contact us if you are interested in online personal training designed for YOUR specific goals, limitations and equipment.
-
-3 Rounds SLOW and CONTROLLED of:
-15… https://t.co/kIlsAzYcIz",Texas,49,Texas,14275
-132,"Is it 2020 or 1990?! My Honda getting full like old times. The bittersweetness of CORONA and staying home. . . .gas SO low, I couldn't pass it up. . . and can't go anywhere 😒 @ Fort Worth, Texas https://t.co/mufVxdyYGC",Texas,49,Texas,14275
-133,"It’s hard to get the whole picture of the mortgage markets with this Corona virus ordeal.
-.
-Join us tomorrow on our FB Page at 10am CST for a LIVE episode of MMG as we discuss further details of mortgage… https://t.co/xU8zlPVoMf",Texas,49,Texas,14275
-134,"Don’t let the Corona Get You! Stay Safe and Happy Easter .... @ Ewa Beach, Hawaii https://t.co/oVL502jJVU",Hawaii,15,Hawaii,504
-135,"Don’t let the Corona Get You! Stay Safe and Happy Easter .... @ Ewa Beach, Hawaii https://t.co/Z5jAkHVfp0",Hawaii,15,Hawaii,504
-136,"🇺🇸 US
-
-10 day forecast of 50,483 dead. This wave may last 123 days and see 9,376,156 cases and 131,266 deaths. Cases double every 5.6 days.
-
-❤️ Every Life Counts, Pls #StayAtHome
-
-🏥: https://t.co/an5Q5LWRAu
-📈: https://t.co/c0cjARzST8",Kansas,20,Kansas,1390
-137,"🇺🇸 US
-
-10 day forecast of 50,164 dead. This wave may last 122 days and see 8,571,536 cases and 120,002 deaths. Cases double every 6.5 days.
-
-❤️ Every Life Counts, Pls #StayAtHome
-
-🏥: https://t.co/an5Q5LWRAu
-📈: https://t.co/c0cjARzST8",Kansas,20,Kansas,1390
-138,"🇺🇸 US
-
-10 day forecast of 50,164 dead. This wave may last 122 days and see 8,571,536 cases and 120,002 deaths. Cases double every 6.5 days.
-
-❤️ Every Life Counts, Pls #StayAtHome
-
-🏥: https://t.co/an5Q5LWRAu
-📈: https://t.co/c0cjARzST8",Kansas,20,Kansas,1390
-139,still missung March Madness #Basketball #NCAA #College #CollegeBasketball #NCAABasketball #KansasJayhawks #Corona @kuhoops @marchmadness ncaa_mens_basketball @ Allen Fieldhouse https://t.co/yIjSjkAMzm,Kansas,20,Kansas,1390
-140,"🇺🇸 US
-
-10 day forecast of 50,164 dead. This wave may last ~140 days and see 11,689,408 cases and 163,652 deaths. Cases double every 6.5 days.
-
-❤️ Every Life Counts, Pls #StayAtHome
-
-🏥: https://t.co/an5Q5LWRAu
-📈: https://t.co/I3HgK1hGAm",Kansas,20,Kansas,1390
-141,"🇺🇸 US
-
-10 day forecast of 50,164 dead. This wave may last ~140 days and see 11,689,408 cases and 163,652 deaths. Cases double every 6.5 days.
-
-❤️ Pls #StayAtHome
-
-🏥: https://t.co/an5Q5LWRAu
-📈: https://t.co/dkyu1njtkT",Kansas,20,Kansas,1390
-142,"🇺🇸 US
-
-10 day forecast of 50,164 dead. This wave may last ~140 days and see 11,689,408 cases and 163,652 deaths. Cases double every 6.5 days.
-
-❤️ Pls #StayAtHome
-
-🏥: https://t.co/an5Q5LWRAu
-📈: https://t.co/dkyu1njtkT",Kansas,20,Kansas,1390
-143,"#hotnigga #entrepreneur #baltimore #maskup #stayhome #quarantine #betterlife #corona #mask #maryland #livesmart # thebestatit @ Baltimore, Maryland https://t.co/6qXVzTuXV1",Maryland,24,Maryland,8936
-144,"Keep the Joy ❤️🔥 Even in this corona pandemic .
-.
-
-Video Credit: officialgalaxytv
-#officialcuttytv @ Cutty Events Planning &amp; Management LLC https://t.co/UyhdAUGcwq",Maryland,24,Maryland,8936
-145,"I miss the stage. I miss the laughs.....I miss it all 😢 #ComediansAreNotOk #Corona 🦠 #Quarantine #DreamInBlack #GlowUp #TheButterflyEffect 🐛🦋
-.
-.
-🎭The Lost &amp; Found Podcast is available on Anchor, Apple and Google… https://t.co/js4VBsfxr6",Maryland,24,Maryland,8936
-146,"Thank you to everyone @AAMCNews for what you are doing in the fight against Corona virus. We love our fans and the community, thank you for taking care of all the great people in the area. We look forward to… https://t.co/EmU9eqUyNe",Maryland,24,Maryland,8936
-147,"RIP Yelena Corona  4-10-15👼🏻 You will forever be in our hearts ♥️ and will never be forgotten. We love you 😘 our sweet angel. @ Carmel, Indiana https://t.co/lIgOWmZdv1",Indiana,18,Indiana,8359
-148,So many masks... #llalladesigns #sewing #corona #handcrafted #embroidery #pfaff #projectbags #pompoms #domore2020 #graceandkindness #masks #stayhome @ Lla Lla Designs https://t.co/K0P4toRdMN,Indiana,18,Indiana,8359
-149,"Stay Blessed, Stay Positive and More Importantly Stay SAFE! #WordsFromTheDr #Corona @ Indianapolis, Indiana https://t.co/OMp9Qg5ap2",Indiana,18,Indiana,8359
-150,"To my fellow allergy sufferers... This is going to be a very hard season for us lol.. #goodluck #corona #covid #sewpinky #maytheoddsbeeverinyourfavor #blessyou #allergies @ Fort Wayne, Indiana https://t.co/QdRlAsw5Vh",Indiana,18,Indiana,8359
-151,My corona-free activity for today!🧗🏻‍♀️🙌🏻 #sundayhike @ Rattlesnake Mountain https://t.co/xnyQPTHzv4,New Hampshire,33,New Hampshire,985
-152,"Miss being able to work/write in this environment... 😕 #socialdistancing 
-.
-.
-#soonerthanlater #corona #covid_19 #pandemic #workfromhome #workingmom #authorslife #writerlife #mylife #reallife #readersofinstagram… https://t.co/ployxP9xbZ",New Hampshire,33,New Hampshire,985
-153,"Say Whaaaat?? You didnt know I was in a MOVIE??? I co-star with chase_rayder in the sexy action thriller ""Corona Kombat"". I play the role of Trichome, the brave warrior who with his clorox wipes banishes bacteria… https://t.co/sgcgBbDR7E",Colorado,6,Colorado,7691
-154,"CORONA At Quarantine at My Place @ Las Vegas, Nevada https://t.co/w6cCJ0MsGs",Nevada,32,Nevada,2990
-155,"Take my internet away 😂
-—
-#diy #coronachallenge #corona #fuckcoviddrinkcorona #upcycle #sweatshirt #croptop @ Las Vegas, Nevada https://t.co/MGcz5Z75C7",Nevada,32,Nevada,2990
-156,"Words from my heart to you... 💛🧡💛
-
-#covi̇d19
-#corona
-#coronavid19
-#stayhome
-#stayhealthy
-#staysafe
-#stayhomesavelives
-#savelives
-#flattenthecurve
-#choralmag @ Ann Arbor, Michigan https://t.co/tEVY2ju5qH",Michigan,26,Michigan,25635
-157,"At 5:04 AM MDT, 15 ESE Corona [Lincoln Co, NM] TRAINED SPOTTER reports SNOW of 3.00 INCH https://t.co/UTlyphgEbn",New Mexico,35,New Mexico,1262
-158,"At 9:15 AM MDT, 1 W Corona [Lincoln Co, NM] COCORAHS reports SNOW of 2.50 INCH https://t.co/KYjzZnURCu",New Mexico,35,New Mexico,1262
-159,"Join today for 25% off that’s right the next 50 ppl that click the link in my bio that joins can do so for only $7 💋
-
-#kansascity #816 #missouri #corona #twerker #adult #content #atlanta #atl #miami #nyc #la #vegas… https://t.co/vQOwN4LYO6",Missouri,29,Missouri,4515
-160,"There are so many things out of control these times. - Let’s focus on things, we can control. 🎯 👍🏽
-
-#stayathome #stayhealthy #motivation #targets #focus #shotoniphone #seattle #bellevue #covid #quarantine #corona… https://t.co/JYpdosA0U8",Washington,54,Washington,10635
-161,One of the things that Corona has interrupted is the KYOSA grant that the SCMS Grizzlies Beyond the Bell Maker Club received to start this semester. I'm happy to report that we have been… https://t.co/Q29hUAY7PU,Kentucky,21,Kentucky,2018
+Did you know?
+With the median home price of $3,097,450 in your market, you could… https://t.co/4nHgcgrrJT",California
+161,"To my fellow allergy sufferers... This is going to be a very hard season for us lol.. #goodluck #corona #covid #sewpinky #maytheoddsbeeverinyourfavor #blessyou #allergies @ Fort Wayne, Indiana https://t.co/QdRlAsw5Vh",0.0,"To my fellow allergy sufferers... This is going to be a very hard season for us lol.. #goodluck #corona #covid #sewpinky #maytheoddsbeeverinyourfavor #blessyou #allergies @ Fort Wayne, Indiana https://t.co/QdRlAsw5Vh",Indiana
+162,"Another episode of expectation vs. reality. My mom ordered TP back on March 18th &amp; we really didn’t expect it until May (because, ya know, #corona ) daily_laugh_official #wtf #thanksforthelaughs #ToiletPaperFail… https://t.co/jEtZmMi2Wv",0.25,"Another episode of expectation vs. reality. My mom ordered TP back on March 18th &amp; we really didn’t expect it until May (because, ya know, #corona ) daily_laugh_official #wtf #thanksforthelaughs #ToiletPaperFail… https://t.co/jEtZmMi2Wv",Florida
