@@ -66,10 +66,12 @@ print(accuracy_score(y_test_sent, test_predictions))
 #X_train[y_train['location']=='Florida']
 #import pickle
 #pickle.dump(clf,open("models.pckle",'wb'))
+#y_train['predicted_sentiment'] = X_train.apply(lambda x: clf.predict(x['tweet']))
 
 dates = y_train['date'].unique()
 y_train['sentiment']
 
+ylist = map(lambda x: clf.predict(tfidfX), X_train['tweet'][(X_train['location']=='Florida') & (X_train['date']< '2020-04-19')])
 import datetime
 converted_dates = list(map(datetime.datetime.strptime, dates, len(dates)*['%Y-%m-%d']))
 y_axis = y_train['Confirmed']
@@ -77,6 +79,6 @@ y_axis = y_train['Confirmed']
 from matplotlib import pyplot as plt
 y_df = y_train[(y_train['location']=='Florida') & (y_train['date']< '2020-04-19')]
 y_df['date'] = pd.to_datetime(y_df['date'])
-plt.plot(y_df['date'],y_df['Confirmed'])
+plt.plot(y_df['date'],ylist)
 plt.yticks(rotation=90)
 plt.show()
