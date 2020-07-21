@@ -14,11 +14,12 @@ state_names = ["Alaska", "Alabama", "Arkansas", "Arizona", "California", "Colora
 states = pd.get_dummies(state_names)
 #print(states)
 
-articlesFile = "articles.csv"
+articlesFile = "articles2.csv"
 #articles.to_csv(articlesFile)
 articles = pd.read_csv(articlesFile)
 #articles = articles.drop(columns = ['Unnamed: 0'])
 #print(articles.head(5))
+'''
 def getCases(date, location):
     date = pd.to_datetime(date)
     print(date)
@@ -30,7 +31,7 @@ articleFile = "articles2.csv"
 articles = articles.drop(columns = ['Unnamed: 0'])
 articles.to_csv(articleFile)
 print(articles.columns)
-
+'''
 import sklearn
 from sklearn import feature_extraction
 
@@ -62,24 +63,28 @@ df = df.drop(columns = ['Unnamed: 0'])
 #print(df[['location','tfidf']].groupby('location').mean())
 #print(df.dtypes)
 data = []
-counter = 1
+#counter = 1
 
 for date in daterange(start_date, end_date):
-    tfidf = tf_counter.transform(df['tweet'])
-    tfidf = pd.DataFrame(tfidf.toarray(), columns = tf_counter.get_feature_names())
-    df = pd.concat([df, tfidf], axis=1)
+    print(date)
     #insert other pre-processing here, ex: date since start
-    df['datesince'] = counter
+    #print(df['date'])
+    #print(start_date)
+    df['date-since'] = (date - start_date)
+    #d = datetime.today() - timedelta(days=days_to_subtract)
+
     #print('bystate: ', bystate)
     #print(data)
-    counter += 1
-
-bystate = df.groupby(['location', 'date']).mean()
+    #counter += 1
+tfidf = tf_counter.transform(df['tweet'])
+tfidf = pd.DataFrame(tfidf.toarray(), columns = tf_counter.get_feature_names())
+df = pd.concat([df, tfidf], axis=1)
+df = df.drop(columns = ['date','Unnamed: 0'])
+bystate = df.groupby(['location', 'date-since']).mean()
 #data = bystate.values
-
 # Get the words corresponding to the vocab index
 tf_counter.get_feature_names()
 #print (tf_counter.get_feature_names())
 
-tfidfConverted = "tfidf2.csv"
+tfidfConverted = "tfidf4.csv"
 bystate.to_csv(tfidfConverted)

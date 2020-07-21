@@ -6,10 +6,10 @@ from sklearn import datasets
 from sklearn import svm
 import numpy as np
 
-tfidf = "tfidf.csv"
+tfidf = "tfidf4.csv"
 df = pd.read_csv(tfidf)
 
-X = df.drop('Confirmed')
+X = df.drop(columns = ['Unnamed: 0', 'location'])
 X=X.values
 y = df['Confirmed']
 y=y.values
@@ -32,7 +32,7 @@ from sklearn import metrics
 
 for i in C:
     for j in penalty:
-        clf = LogisticRegression(C = i, penalty = j, solver = 'liblinear', max_iter = 100).fit(X_train, y_train)
+        clf = LogisticRegression(C = i, penalty = j, solver = 'saga', max_iter = 100).fit(X_train, y_train)
         scoring = []
         accuracyScore = []
         for train_index, test_index in tscv.split(X):
@@ -56,6 +56,7 @@ for i in C:
         plt.plot(scoring)
         plt.plot(accuracyScore)
         plt.show()
+
 '''
 clf = linear_model.LogisticRegression(C=1e5)
 clf.fit(X, y)
