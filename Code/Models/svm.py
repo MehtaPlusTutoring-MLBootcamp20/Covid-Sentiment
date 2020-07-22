@@ -49,18 +49,21 @@ import time
 from sklearn import svm
 from sklearn.metrics import classification_report
 # Perform classification with SVM, kernel=linear
-classifier_linear = svm.SVC(kernel='linear')
-t0 = time.time()
-classifier_linear.fit(X_train, y_train_sent)
-t1 = time.time()
-prediction_linear = classifier_linear.predict(X_train)
-t2 = time.time()
-time_linear_train = t1-t0
-time_linear_predict = t2-t1
-# results
-print("Training time: %fs; Prediction time: %fs" % (time_linear_train, time_linear_predict))
-report = classification_report(y_train_sent, prediction_linear, labels=[1, 0, -1], output_dict=True)
-print(report)
+C=[10.0, 12.0, 15.0] 
+for i in C:
+    classifier_linear = svm.SVC(C=i, kernel='linear')
+    t0 = time.time()
+    classifier_linear.fit(X_test, y_test_sent)
+    t1 = time.time()
+    prediction_linear = classifier_linear.predict(X_test)
+    t2 = time.time()
+    time_linear_train = t1-t0
+    time_linear_predict = t2-t1
+    # results
+    print("C: ",i)
+    print("Training time: %fs; Prediction time: %fs" % (time_linear_train, time_linear_predict))
+    report = classification_report(y_test_sent, prediction_linear, labels=[1, 0, -1], output_dict=True)
+    print(report)
 #print('positive: ', report[1])
 #print('neutral: ', report[0])
 #print('negative: ', report[-1])
@@ -75,25 +78,31 @@ print(report)
 
 import matplotlib.pyplot as plt 
 import datetime
-
 dates = y_train['date'].unique()
-
 converted_dates = list(map(datetime.datetime.strptime, dates, len(dates)*['%Y-%m-%d']))
 #y_axis = y_train['Confirmed']
-state = 'Texas'
+state = 'Connecticut'
 stateX = X_train.toarray()[(y_train['location']==state)] #& (y_train['date']< '2020-04-19')]
+#stateX = X_train.toarray()
 #ylist = classifier_linear.predict(stateX)
 #print(ylist)
 from matplotlib import pyplot as plt
-
-
-
 y_df = y_train[(y_train['location']==state)] #& (y_train['date']< '2020-04-19')]
+#y_df = y_train
 y_df['date'] = pd.to_datetime(y_df['date'])
+#print(type(y_df['date']))
+print(y_df['date'].dtype)
 y_df['predicted_sent'] = classifier_linear.predict(stateX)
-y_df = y_df.groupby('date').mean()
-print(type(y_df))
-plt.scatter(y_df['date'],y_df['predicted_sent'])
+# import IPython
+# IPython.embed()
+y_df = y_df.groupby('date', as_index=False).mean()
+# print(type(y_df))
+# plt.scatter(y_df.index,y_df['predicted_sent'])
+# plt.scatter(y_df['date'],y_df['predicted_sent'])
+plt.title("Connecticut Average Sentiment")
+plt.xlabel('Date')
+plt.ylabel('Sentiment')
+plt.scatter(y_df['date'],list(y_df['predicted_sent']))
 plt.yticks(rotation=90)
 plt.show()
 
