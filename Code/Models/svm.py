@@ -49,11 +49,11 @@ import time
 from sklearn import svm
 from sklearn.metrics import classification_report
 # Perform classification with SVM, kernel=linear
-C=[10.0, 12.0, 15.0] 
+C=[2] 
 for i in C:
     classifier_linear = svm.SVC(C=i, kernel='linear')
     t0 = time.time()
-    classifier_linear.fit(X_test, y_test_sent)
+    classifier_linear.fit(X_train, y_train_sent)
     t1 = time.time()
     prediction_linear = classifier_linear.predict(X_test)
     t2 = time.time()
@@ -81,14 +81,14 @@ import datetime
 dates = y_train['date'].unique()
 converted_dates = list(map(datetime.datetime.strptime, dates, len(dates)*['%Y-%m-%d']))
 #y_axis = y_train['Confirmed']
-state = 'Connecticut'
-stateX = X_train.toarray()[(y_train['location']==state)] #& (y_train['date']< '2020-04-19')]
-#stateX = X_train.toarray()
+#state = 'Connecticut'
+#stateX = X_train.toarray()[(y_train['location']==state)] #& (y_train['date']< '2020-04-19')]
+stateX = X_train.toarray()
 #ylist = classifier_linear.predict(stateX)
 #print(ylist)
 from matplotlib import pyplot as plt
-y_df = y_train[(y_train['location']==state)] #& (y_train['date']< '2020-04-19')]
-#y_df = y_train
+#_df = y_train[(y_train['location']==state)] #& (y_train['date']< '2020-04-19')]
+y_df = y_train
 y_df['date'] = pd.to_datetime(y_df['date'])
 #print(type(y_df['date']))
 print(y_df['date'].dtype)
@@ -99,7 +99,7 @@ y_df = y_df.groupby('date', as_index=False).mean()
 # print(type(y_df))
 # plt.scatter(y_df.index,y_df['predicted_sent'])
 # plt.scatter(y_df['date'],y_df['predicted_sent'])
-plt.title("Connecticut Average Sentiment")
+plt.title("United States Average Sentiment")
 plt.xlabel('Date')
 plt.ylabel('Sentiment')
 plt.scatter(y_df['date'],list(y_df['predicted_sent']))

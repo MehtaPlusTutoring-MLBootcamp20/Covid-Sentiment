@@ -8,10 +8,10 @@ meow.loc[(meow["sentiment"] < -1/10) & (meow["sentiment"] >= -1) , "sentiment"] 
 meow.loc[(meow["sentiment"] < 1/10) & (meow["sentiment"] >= -1/10) , "sentiment"] = 0
 meow.loc[(meow["sentiment"] <= 1) & (meow["sentiment"] >= 1/10) , "sentiment"] = 1
 
-print(meow['sentiment'].unique())
-print(meow['sentiment'].isin([-1]).sum())
-print(meow['sentiment'].isin([0]).sum())
-print(meow['sentiment'].isin([1]).sum())
+#print(meow['sentiment'].unique())
+#print(meow['sentiment'].isin([-1]).sum())
+#print(meow['sentiment'].isin([0]).sum())
+#print(meow['sentiment'].isin([1]).sum())
 
 positive_df = meow[meow['sentiment'] == 1]
 train_positive = positive_df[:3000]
@@ -44,49 +44,26 @@ X_train, X_test, y_train, y_test = train_test_split(tfidfX, y, test_size=0.2, ra
 
 y_train_sent = y_train[["sentiment"]]
 y_test_sent = y_test[["sentiment"]]
-'''
-from sklearn.linear_model import LogisticRegression
 
-clf = LogisticRegression(C = 0.1, penalty = 'l1', solver = 'saga', max_iter = 100).fit(X_train, y_train_sent)
-test_score = clf.score(X_test, y_test_sent)
-print(test_score)
-'''
-
-
-C=[1.0]
-penalty=['l1']
-from sklearn.linear_model import LogisticRegression
+import time
+from sklearn import svm
+from sklearn.metrics import classification_report
 from sklearn import metrics
-from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
+import nltk
+# Train the classifier
 
-for i in C:
-    for j in penalty:
-        clf = LogisticRegression(C = i, penalty=j, solver = 'saga', max_iter = 200).fit(X_train, y_train_sent)
-        test_score = clf.score(X_test, y_test_sent)
-        print(test_score)
-        print(i, j)
-            #print("TRAIN:", train_index, "TEST:", test_index)
-            #X_train, X_test = X[train_index], X[test_index]
-            #y_train, y_test = y[train_index], y[test_index]
-            #clf.fit(X_train, y_train)
+from sklearn.linear_model import LogisticRegression, SGDClassifier
+from sklearn.svm import LinearSVC
+SGDC = SGDClassifier()
+LSVC = LinearSVC()
 
-'''
-clf = LogisticRegression(C = 0.5, penalty='l1', solver = 'saga', max_iter = 200).fit(X_train, y_train_sent)
-test_score = clf.score(X_test, y_test_sent)
-print(test_score)
-#print(i, j)
- '''       
-test_predictions = clf.predict(X_test)
-print(confusion_matrix(y_test_sent,test_predictions))  
-print(classification_report(y_test_sent,test_predictions))  
-print(accuracy_score(y_test_sent, test_predictions))
-#fpr,tpr,thresholds = metrics.roc_curve(y_test, test_predictions, pos_label = 1)
-#metrics.auc(fpr,tpr)
+LSVC.fit(X_train, y_train_sent)
+accuracy_score_lsvc = metrics.accuracy_score(LSVC.predict(X_test),y_test_sent)
+print ('accuracy_score_lsvc = ' + str('{:4.2f}'.format(accuracy_score_lsvc*100))+'%')
 
-#X_train[y_train['location']=='Florida']
-#import pickle
-#pickle.dump(clf,open("models.pckle",'wb'))
-#y_train['predicted_sentiment'] = X_train.apply(lambda x: clf.predict(x['tweet']))
+SGDC.fit(X_train,y_train_sent)
+accuracy_score_sgdc = metrics.accuracy_score(SGDC.predict(X_test),y_test_sent)
+print ('accuracy_score_sgdc = ' + str('{:4.2f}'.format(accuracy_score_sgdc*100))+'%')
 
 
 import matplotlib.pyplot as plt 
@@ -105,7 +82,7 @@ y_df = y_train
 y_df['date'] = pd.to_datetime(y_df['date'])
 #print(type(y_df['date']))
 print(y_df['date'].dtype)
-y_df['predicted_sent'] = clf.predict(stateX)
+y_df['predicted_sent'] = SGDC.predict(stateX)
 # import IPython
 # IPython.embed()
 y_df = y_df.groupby('date', as_index=False).mean()

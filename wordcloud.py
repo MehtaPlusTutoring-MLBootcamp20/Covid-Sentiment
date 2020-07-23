@@ -3,7 +3,6 @@ import pandas as pd
 import matplotlib.pyplot as plt 
 stopwords = set(STOPWORDS)
 
-from textblob import TextBlob
 
 meow = pd.read_csv("articles2.csv")
 
@@ -25,7 +24,7 @@ def show_wordcloud(data , title = None):
     plt.imshow(wordcloud, interpolation='bilinear')
     plt.show()
 
-show_wordcloud(meow['tweet'])
-#show_wordcloud(positive_df)
+#show_wordcloud(meow['tweet'])
+show_wordcloud(positive_df)
 #show_wordcloud(neutral_df)
 #show_wordcloud(neg_df)
